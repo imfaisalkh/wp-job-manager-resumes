@@ -1,0 +1,1716 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Resume Manager v1.8.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-resumes\n"
+"POT-Creation-Date: 2015-01-28 10:18:45+00:00\n"
+"PO-Revision-Date: 2015-02-11 04:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-admin.php:51
+msgid "Settings"
+msgstr "Ayarlar"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:43
+#: includes/admin/class-wp-resume-manager-cpt.php:44
+msgid "Approve Resumes"
+msgstr "Onaylanmış Özgeçmişler"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:112
+#: includes/admin/class-wp-resume-manager-cpt.php:114
+msgid "%s approved"
+msgstr "%s onaylandı"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:160
+msgid "Select a category"
+msgstr "Kategori Seçin"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:193
+msgid "Candidate name"
+msgstr "Adayın İsmi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:209
+msgid "Resume updated. <a href=\"%s\">View Resume</a>"
+msgstr "Özgeçmiş güncellendi. <a href=\"%s\">Özgeçmişi Göster</a>"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:210
+msgid "Custom field updated."
+msgstr "Özel alan güncellendi."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:211
+msgid "Custom field deleted."
+msgstr "Özel alan silindi."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:212
+msgid "Resume updated."
+msgstr "Özgeçmiş güncellendi."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:213
+msgid "Resume restored to revision from %s"
+msgstr "Öçzgeçmiş önceki %s uyarlamasına döndürüldü"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:214
+msgid "Resume published. <a href=\"%s\">View Resume</a>"
+msgstr "Özgeçmiş yayınlandı. <a href=\"%s\">View Resume</a>"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:215
+msgid "Resume saved."
+msgstr "Özgeçmiş kaydedildi."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:216
+msgid "Resume submitted. <a target=\"_blank\" href=\"%s\">Preview Resume</a>"
+msgstr ""
+"Özgeçmiş kaydedildi. <a target=\"_blank\" href=\"%s\">Özgeçmişi Öngörüntüle</"
+"a>"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:217
+msgid ""
+"Resume scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Resume</a>"
+msgstr ""
+"Ögeçmişin yayınlanacağı tarih: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Özgeçmişi Öngörüntüle</a>"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:218
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:219
+msgid ""
+"Resume draft updated. <a target=\"_blank\" href=\"%s\">Preview Resume</a>"
+msgstr ""
+"Özgeçmiş taslağı kaydedildi. <a target=\"_blank\" href=\"%s\">Özgeçmişi "
+"Öngörüntüle</a>"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:238
+#: includes/class-wp-resume-manager-install.php:54
+msgid "Candidate"
+msgstr "Aday"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:239
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:168
+#: templates/candidate-dashboard.php:9 templates/resume-filters.php:13
+msgid "Location"
+msgstr "Lokasyon"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:240
+msgid "Email"
+msgstr "Eposta"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:243
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:209
+#: templates/content-single-resume.php:20
+msgid "Skills"
+msgstr "Nitelikler"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:247
+msgid "Categories"
+msgstr "Kategoriler"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:250
+msgid "Featured?"
+msgstr "Öncelikli mi?"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:251
+#: templates/candidate-dashboard.php:13
+msgid "Status"
+msgstr "Durum"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:252
+msgid "Posted"
+msgstr "Yayınlandığı tarih"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:253
+#: includes/admin/class-wp-resume-manager-writepanels.php:68
+msgid "Expires"
+msgstr "Sonlanma Tarihi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:254
+msgid "Actions"
+msgstr "Aksiyonlar"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:271
+msgid "Resume ID: %d"
+msgstr "Özgeçmiş ID: %d"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:288
+#: templates/contact-details.php:5
+msgid "Contact"
+msgstr "İletişim"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:297
+#: includes/admin/class-wp-resume-manager-cpt.php:302
+msgid "M j, Y"
+msgstr "j M Y"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:298
+msgid "by a guest"
+msgstr "bir misafir tarafından"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:298
+msgid "by %s"
+msgstr "%s tarafından"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:318
+msgid "Approve"
+msgstr "Onayla"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:325
+msgid "View"
+msgstr "Görüntüle"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:330
+#: includes/class-wp-resume-manager-post-types.php:177
+#: templates/candidate-dashboard.php:32 templates/candidate-dashboard.php:36
+msgid "Edit"
+msgstr "Düzenle"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-cpt.php:335
+#: templates/candidate-dashboard.php:46
+msgid "Delete"
+msgstr "Sil"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:42
+msgid "Resume Listings"
+msgstr "Özgeçmiş İlanları"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:48
+msgid "Resumes Per Page"
+msgstr "Sayfa başına özgeçmiş"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:49
+msgid "How many resumes should be shown per page by default?"
+msgstr "Her sayfada gösterilecek varsayılan özgeçmiş sayısı nedir?"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:55
+#: includes/class-wp-resume-manager-post-types.php:61
+msgid "Resume Categories"
+msgstr "Özgeçmiş Kategorileri"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:56
+msgid "Enable resume categories"
+msgstr "Özgeçmiş kategorilerini etkinleştir"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:57
+msgid ""
+"Choose whether to enable resume categories. Categories must be setup by an "
+"admin for users to choose during job submission."
+msgstr ""
+"Kategorileri etkinleştirilip etkinleştirilmeyeceğini seçin. Gönderim "
+"sırasında seçilebilmesi için Yönetici tarafından Kategoriler ayarlanmalıdır."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:64
+msgid "Multi-select Categories"
+msgstr "Çoklu kategori seçimi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:65
+msgid "Enable category multiselect by default"
+msgstr "Otomatik olarak çoklu kategori seçimi için etkinleştirilmelidir "
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:66
+#: includes/admin/class-wp-resume-manager-settings.php:74
+msgid ""
+"If enabled, the category select box will default to a multiselect on the "
+"[resumes] shortcode."
+msgstr ""
+"Etkinleştirildiği takdirde, kategori seçim kutusu otomatik olarak [resumes] "
+"kısa kodlarındaki çoklu seçim haline gelecektir."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:73
+msgid "Category Filter Type"
+msgstr "Kategori Filtre Türü"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:77
+msgid "Resumes will be shown if within ANY selected category"
+msgstr ""
+"Seçildiği takdirde, HERHANGİ bir seçili kategoriye ait İşler gösterilecektir"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:78
+msgid "Resumes will be shown if within ALL selected categories"
+msgstr ""
+"Seçildiği takdirde, TÜM seçimlere göre kategorilere ait İşler gösterilecektir"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:84
+msgid "Resume Skills"
+msgstr "Özgeçmiş nitelikleri"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:85
+msgid "Enable resume skills"
+msgstr "Özgeçmiş niteliklerini etkinleştir"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:86
+msgid ""
+"Choose whether to enable the resume skills field. Skills work like tags and "
+"can be added by users during resume submission."
+msgstr ""
+"Özgeçmiş nitelik alanlarını etkinleştirmek isteyip istemediğinizi seçin. "
+"Nitelikler etiketler gibi çalışır ve kullanıcıların özgeçmiş göndermeleri "
+"esnasında eklenir."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:93
+msgid "Resume Upload"
+msgstr "Özgeçmiş yükle"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:94
+msgid "Enable resume upload"
+msgstr "Özgeçmiş yüklemesini etkinleştir"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:95
+msgid "Choose whether to allow candidates to upload a resume file."
+msgstr ""
+"Adayların bir özgeçmiş dosyası yükleyip yükleyemeyeceklerine izin verin."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:102
+msgid "Auto-hide Resumes"
+msgstr "Özgeçmişleri otomatik olarak gizle"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:103
+msgid ""
+"How many <strong>days</strong> un-modified resumes should be published "
+"before being hidden. Can be left blank to never hide resumes automaticaly. "
+"Candidates can re-publish hidden resumes form their dashboard."
+msgstr ""
+"Üzerinde değişiklik yapılmamış özgeçmişler, gizli hale getirilmeden önce kaç "
+"<strong>gün</strong> yayında kalacaklar. Otomatik olarak hiç gizlenmemeleri "
+"için boş bırakılabilir. Adaylar özgeçmişerini, kendi kontrol panelleri "
+"üzerinden yeniden yayınlayabilirler."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:109
+msgid "Resume Submission"
+msgstr "Özgeçmiş Gönderimi"
+
+# @ wp-job-manager
+#: includes/admin/class-wp-resume-manager-settings.php:114
+msgid "Account Required"
+msgstr "Hesap Gerekli"
+
+# @ wp-job-manager
+#: includes/admin/class-wp-resume-manager-settings.php:115
+msgid "Submitting listings requires an account"
+msgstr "Eklemek için giriş yapmak gerekli"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:116
+msgid ""
+"If disabled, non-logged in users will be able to submit listings without "
+"creating an account. Please note that this will prevent non-registered users "
+"from being able to edit their listings at a later date."
+msgstr ""
+"Eğer etkisizleştirilirse, giriş yapmamış kullanıcılar, bir hesap yaratmadan "
+"iş ilanlarına başvurabilirler. Yalnız buradaki önemli nokta şudur ki; kayıt "
+"yapmamış kullanıcılar daha sonra kendi ilanlarını güncelleyemez, "
+"değiştiremezler."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:123
+msgid "Account Creation"
+msgstr "Hesap Oluşturma"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:124
+msgid "Allow account creation"
+msgstr "Hesap oluşturulmasına izin ver"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:125
+msgid ""
+"If enabled, non-logged in users will be able to create an account by "
+"entering their email address on the resume submission form."
+msgstr ""
+"Eğer etkinleştirilirse, giriş yapmamış kullanıcılar, gönderi formuna eposta "
+"girerek hesap yaratabileceklerdir."
+
+# @ wp-job-manager
+#: includes/admin/class-wp-resume-manager-settings.php:132
+msgid "Account Username"
+msgstr "Hesap Kullanıcı Adı"
+
+#: includes/admin/class-wp-resume-manager-settings.php:133
+msgid "Automatically Generate Username from Email Address"
+msgstr "Otomatik olarak Eposta Adresi üzerinden Kullanıcıadı Oluştur."
+
+#: includes/admin/class-wp-resume-manager-settings.php:134
+msgid ""
+"If enabled, a username will be generated from the first part of the user "
+"email address. Otherwise, a username field will be shown."
+msgstr ""
+"Eğer etkinleştirilirse, kullanıcın eposta adresinin ilk kısmından bir "
+"kullanıcıadı oluşturulacaktır. Aksi halde bir kullanıcıadı alanı "
+"gösterilecek."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:141
+msgid "Account Role"
+msgstr "Hesap Rolü"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:142
+msgid ""
+"If you enable registration on your submission form, choose a role for the "
+"new user."
+msgstr ""
+"Eğer ekleme formunda, siteye kaydolmayı etkinleştiriyorsanız, yeni kullanıcı "
+"için bir rol seçin."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:149
+msgid "Approval Required"
+msgstr "Onay Gerekli"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:150
+msgid "New submissions require admin approval"
+msgstr "Yeni gönderiler yönetici onayı gerektirir"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:151
+msgid "If enabled, new submissions will be inactive, pending admin approval."
+msgstr ""
+"Eğer etkinleştirilirse, yeni eklenenler, yönetici onayına kadar beklemede "
+"kalacaktır."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:158
+msgid "Email New Submissions"
+msgstr "Yeni gönderiler için yönetici onayı gerekir"
+
+#: includes/admin/class-wp-resume-manager-settings.php:159
+msgid "Email resume details to the admin user after submission."
+msgstr ""
+"Teslim edildikten sonra özgeçmiş detaylarını yöneticiye eposta olarak gönder."
+
+#: includes/admin/class-wp-resume-manager-settings.php:160
+msgid ""
+"If enabled, all resume details for new submissions will be emailed to %s."
+msgstr ""
+"Eğer etkinleştirilirse, yeni eklenen özgeçmişlerin tüm detayları %s adresine "
+"epostalanacaktır."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:167
+msgid "Listing Duration"
+msgstr "Listeleme Süresi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:168
+msgid ""
+"How many <strong>days</strong> listings are live before expiring. Can be "
+"left blank to never expire. Expired listings must be relisted to become "
+"visible."
+msgstr ""
+"İş İlanları, gizli hale getirilmeden önce kaç <strong>gün</strong> yayında "
+"kalacaklar. Otomatik olarak hiç sonlanmamaları için boş bırakılabilir. "
+"Sonlanmış iş ilanlarının yeniden görünür hale gelebilmeleri için yeniden "
+"listelenmeleri gerekir."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:170
+msgid "Never expire"
+msgstr "Hiç sonlandırma"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:175
+msgid "Submit Resume Page"
+msgstr "Özgeçmiş Ekleme Sayfası"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:176
+msgid ""
+"Select the page where you have placed the [submit_resume_form] shortcode. "
+"This lets the plugin know where the form is located."
+msgstr ""
+"[submit_job_form] kısa kodunu yerleştirdiğiniz sayfayı seçin. Bu seçimle "
+"eklenti, formun nerede olduğunu bulabilir."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:182
+msgid "Linkedin Import"
+msgstr "LinkedIn bilgileri kullan"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:183
+msgid "Allow import of resume data from LinkedIn"
+msgstr "Özgeçmiş bilgisinin LinkedIn verisinden alınmasına izin ver"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:184
+msgid ""
+"If enabled, users will be able to login to LinkedIn and have the resume "
+"submission form automatically populated."
+msgstr ""
+"Eğer etkinleştirilirse, kullanıcılar LinkedIn adreslerine giriş yaparak, "
+"özgeçmiş bilgilerini otomatik olarak oradan alabilirler."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:191
+msgid "Linkedin Api Key"
+msgstr "LinkedIn API Anahtarı"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:192
+msgid ""
+"Get your API key by creating a new application on https://www.linkedin.com/"
+"secure/developer"
+msgstr ""
+"https://www.linkedin.com/secure/developer adresinden yeni bir aplikasyon "
+"yaratarak, API anahtarınızı edinin."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:198
+msgid "Resume Applications"
+msgstr "Başvurular"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:203
+msgid "Apply With Resume"
+msgstr "Özgeçmiş ile başvur"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:204
+msgid "Allow candidates to apply to jobs with resumes"
+msgstr "Adayların, özgeçmişleriyle işlere başvurmasına izin verin"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:205
+msgid ""
+"If a candidate applies with their online resume, the employer will be mailed "
+"their message and a private link to the resume. This works when the job "
+"application method is by email only (unless using the Job Applications addon "
+"as well)."
+msgstr ""
+"Eğer aday, çevrimiçi özgeçmişleri ile başvuruyorsa, işveren, özgeçmişe ait "
+"özel bir bağlantının da bulunduğu adayın özel mesajını alacaktır. Bu sistem "
+"(Job Applications eklentisi de kullanılmıyorsa) iş başvurusu yöntemi "
+"yalnızca eposta yoluyla ise çalışır."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:212
+msgid "Force Apply With Resume"
+msgstr "Özgeçmiş ile başvurmaya zorla"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:213
+msgid "Force candidates to create a resume and apply through resume manager"
+msgstr ""
+"Kullanıcıları yeni bir özgeçmiş oluşturup özgeçmiş yöneticisi üzerinden "
+"başvurmalarına zorla."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:214
+msgid ""
+"Candidates without a resume on file will be taken through the resume "
+"submission process to apply for a job. Other details, such as the "
+"application email address, will be hidden. This works when the job "
+"application method is by email only (unless using the Job Applications addon "
+"as well)."
+msgstr ""
+"Özgeçmişleri olmayan adaylar, bir işe başvurabilmek için, özgeçmiş ekleme "
+"sürecine yönlendirileceklerdir. Başvuru eposta adresi gibi diğer detaylar "
+"gösterilmeyecektir. Bu sistem (Job Applications eklentisi de "
+"kullanılmıyorsa) iş başvurusu yöntemi yalnızca eposta yoluyla ise çalışır."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:221
+msgid "Resume Visibility"
+msgstr "Özgeçmiş Görünürlüğü"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:226
+msgid "Browse Resume Capability"
+msgstr "Özgeçmiş olanaklarını gezin"
+
+#: includes/admin/class-wp-resume-manager-settings.php:228
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes. "
+"Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Özgeçmişlerde gezinebilmek için <a href=\"%s\">izinler</a>i belirleyin. "
+"Virgül ile ayrılmış bir liste halindeki rol/izinleri destekler."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:233
+msgid "View Resume Capability"
+msgstr "Özgeçmiş olanaklarını görüntüleyin"
+
+#: includes/admin/class-wp-resume-manager-settings.php:235
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Tek Özgeçmişi görüntüleyebilmek için <a href=\"%s\">izinler</a>i belirleyin. "
+"Virgül ile ayrılmış bir liste halindeki rol/izinleri destekler."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-settings.php:240
+msgid "Contact Details Capability"
+msgstr "İletişim detayları olanakları"
+
+#: includes/admin/class-wp-resume-manager-settings.php:242
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Özgeçmişin iletişim bilgilerini görüntüleyebilmek için <a href=\"%s"
+"\">izinler</a>i belirleyin. Virgül ile ayrılmış bir liste halindeki rol/"
+"izinleri destekler."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:29
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:161
+msgid "Professional title"
+msgstr "Profesyonel Titri"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:34
+msgid "Contact email"
+msgstr "İletişim epostası"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:35
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:157
+msgid "you@yourdomain.com"
+msgstr "eposta@ornekdomain.com"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:39
+msgid "Candidate location"
+msgstr "Aday lokasyonu"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:40
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:171
+msgid "e.g. \"London, UK\", \"New York\", \"Houston, TX\""
+msgstr "örnek. \"İstanbul, TR\", \"Ankara\", \"Washington, DC\""
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:44
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:175
+msgid "Photo"
+msgstr "Resim"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:45
+msgid "URL to the candidate photo"
+msgstr "Adayın resmine bağlantı adresi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:49
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:187
+msgid "Video"
+msgstr "Vidyo"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:50
+msgid "URL to the candidate video"
+msgstr "Adayın vidyosu için bağlantı adresi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:54
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:307
+msgid "Resume file"
+msgstr "Özgeçmiş Dosyası"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:55
+msgid "URL to the candidate's resume file"
+msgstr "Adayın özgeçmişi dosyasının bulunduğu adres"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:59
+msgid "Posted by"
+msgstr "Ekleyen"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:63
+msgid "Feature this resume?"
+msgstr "Özgeçmişi öne çıkart?"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:65
+msgid ""
+"Featured resumes will be sticky during searches, and can be styled "
+"differently."
+msgstr ""
+"Öncelikli ilanlar, aramalar sırasında üst tarafa yapışık kalacak ve farklı "
+"görüntülenecektir."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:69
+msgid "yyyy-mm-dd"
+msgstr "dd-mm-yyyy"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:84
+msgid "Candidate Data"
+msgstr "Aday Bilgisi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:85
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:217
+msgid "URL(s)"
+msgstr "Bağlantı(lar)"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:86
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:241
+#: templates/content-single-resume.php:27
+msgid "Education"
+msgstr "Eğitim"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:87
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:274
+#: templates/content-single-resume.php:46
+msgid "Experience"
+msgstr "Deneyim"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:126
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:221
+msgid ""
+"Optionally provide links to any of your websites or social network profiles."
+msgstr ""
+"Opsiyonel olarak kendi internet site ve sosyal ağlarınıza bağlantıları "
+"ekleyebilirsiniz."
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:131
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:225
+#: templates/candidate-dashboard.php:7
+msgid "Name"
+msgstr "İsim"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:132
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:232
+msgid "URL"
+msgstr "Bağlantı"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:139
+#: templates/form-fields/links-field.php:44
+msgid "Add URL"
+msgstr "Bağlantı Ekle"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:176
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:248
+msgid "School name"
+msgstr "Okul adı"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:177
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:254
+msgid "Qualification(s)"
+msgstr "Nitelik(ler)"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:178
+#: includes/admin/class-wp-resume-manager-writepanels.php:227
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:260
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:293
+msgid "Start/end date"
+msgstr "Başlangıç/Bitiş Tarihleri"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:179
+#: includes/admin/class-wp-resume-manager-writepanels.php:228
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:266
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:299
+msgid "Notes"
+msgstr "Notlar"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:186
+#: templates/form-fields/education-field.php:44
+msgid "Add Education"
+msgstr "Eğitim Ekle"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:225
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:281
+msgid "Employer"
+msgstr "İşveren"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:226
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:287
+msgid "Job Title"
+msgstr "Pozisyon İsmi"
+
+# @ wp-job-manager-resumes
+#: includes/admin/class-wp-resume-manager-writepanels.php:235
+#: templates/form-fields/experience-field.php:44
+msgid "Add Experience"
+msgstr "Deneyim Ekle"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-ajax.php:67
+msgid "No resumes found matching your selection."
+msgstr "Kriterlerinize uyan bir özgeçmiş bulunamadı."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-ajax.php:93
+msgid "Showing &ldquo;%s&rdquo; %sresumes"
+msgstr "Gösterilen Özgeçmişler: &ldquo;%s&rdquo; %s"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-ajax.php:95
+msgid "Showing all %sresumes"
+msgstr "Tüm %s özgeçmişi göster"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-ajax.php:98
+msgid "located in &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; lokasyonlarındakiler"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:51
+msgid "Submit your resume below to apply for the job \"%s\"."
+msgstr "\"%s\" pozisyonuna başvurmak için özgeçmiş ekleyin."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:90
+msgid "Please choose a resume to apply with"
+msgstr "Başvurmak için bir özgeçmiş seçin"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:95
+#: includes/class-wp-resume-manager-apply.php:107
+msgid "This job cannot be applied for using a resume"
+msgstr "Bu işe özgeçmiş kullanarak başvuruda bulunulamaz"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:100
+msgid "Please enter a message to include with your application"
+msgstr "Başvurunuz ile birlikte göndermek için bir mesaj girin."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:112
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:976
+msgid "Your application has been sent successfully"
+msgstr "Başvurunuz başarıyla gönderildi"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:114
+msgid "Error sending application"
+msgstr "Başvuruyu göndermekte sorun var"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:134
+#: templates/resume-submitted-notification.php:8
+msgid "Hello"
+msgstr "Selam"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:135
+msgid "A candidate has applied online for the position \"%s\"."
+msgstr "\"%s\" pozisyonu için bir aday başvuru gönderdi."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:139
+msgid "You can view their online resume here: %s."
+msgstr "Çevrim içi özgeçmişleri %s adresinde görebilirsiniz."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-apply.php:140
+msgid "Or you can contact them directly at: %s."
+msgstr "Veya onlara direkt %s aracılığı ile ulaşabilirsiniz."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-email-notification.php:29
+msgid "New Resume Submission From %s"
+msgstr "Öçzgeçmiş önceki %s uyarlamasına döndürüldü"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:60
+msgid "Resume Category"
+msgstr "Özgeçmiş Kategorisi"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:65
+msgctxt "Resume category slug - resave permalinks after changing this"
+msgid "resume-category"
+msgstr "ozgecmis-kategori"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:82
+#: includes/class-wp-resume-manager-post-types.php:127
+#: includes/class-wp-resume-manager-post-types.php:182
+msgid "Search %s"
+msgstr "%s Arayın"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:83
+#: includes/class-wp-resume-manager-post-types.php:128
+#: includes/class-wp-resume-manager-post-types.php:174
+msgid "All %s"
+msgstr "Tüm %s"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:84
+#: includes/class-wp-resume-manager-post-types.php:129
+#: includes/class-wp-resume-manager-post-types.php:185
+msgid "Parent %s"
+msgstr "Üst %s"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:85
+#: includes/class-wp-resume-manager-post-types.php:130
+msgid "Parent %s:"
+msgstr "Üst %s:"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:86
+#: includes/class-wp-resume-manager-post-types.php:131
+#: includes/class-wp-resume-manager-post-types.php:178
+msgid "Edit %s"
+msgstr "%s Düzenle"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:87
+#: includes/class-wp-resume-manager-post-types.php:132
+msgid "Update %s"
+msgstr "%s Güncelle"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:88
+#: includes/class-wp-resume-manager-post-types.php:133
+msgid "Add New %s"
+msgstr "Yeni %s Ekle"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:89
+#: includes/class-wp-resume-manager-post-types.php:134
+msgid "New %s Name"
+msgstr "Yeni %s İsmi"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:105
+msgid "Candidate Skill"
+msgstr "Aday Niteliği"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:106
+msgid "Candidate Skills"
+msgstr "Aday Nitelikleri"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:110
+msgctxt "Resume skill slug - resave permalinks after changing this"
+msgid "resume-skill"
+msgstr "aday-nitelik"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:152
+msgid "Resume"
+msgstr "Özgeçmiş"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:153
+#: includes/class-wp-resume-manager-post-types.php:381
+msgid "Resumes"
+msgstr "Özgeçmişler"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:156
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "resumes"
+msgstr "ozgecmisler"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:162
+msgctxt "Resume permalink - resave permalinks after changing this"
+msgid "resume"
+msgstr "ozgecmis"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:175
+msgid "Add New"
+msgstr "Yeni Ekle"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:176
+msgid "Add %s"
+msgstr "%s Ekle"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:179
+msgid "New %s"
+msgstr "Yeni %s"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:180
+#: includes/class-wp-resume-manager-post-types.php:181
+msgid "View %s"
+msgstr "%s Görüntüle"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:183
+msgid "No %s found"
+msgstr "%s bulunamadı"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:184
+msgid "No %s found in trash"
+msgstr "Çöpte %s adet bulundu"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:187
+msgid "This is where you can create and manage user resumes."
+msgstr "Buradan kullanıcı özgeçmişleri oluşturabilir ve yönetebilirsiniz."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:214
+#: includes/wp-resume-manager-functions.php:332
+msgctxt "post status"
+msgid "Hidden"
+msgstr "Gizli"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:219
+msgid "Hidden <span class=\"count\">(%s)</span>"
+msgid_plural "Hidden <span class=\"count\">(%s)</span>"
+msgstr[0] "Gizlenmiş <span class=\"count\">(%s)</span>"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:330
+msgid "File not found"
+msgstr "Dosya bulunamadı."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:330
+msgid "Go to homepage"
+msgstr "Başlangıca dön"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-post-types.php:426
+msgid "Contact via the resume for \"%s\" on %s"
+msgstr " \"%s\" deki %s özgeçmiş ile iletişime geç"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-shortcodes.php:58
+msgid "Invalid Resume ID"
+msgstr "Geçersiz Özgeçmiş IDsi"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-shortcodes.php:66
+msgid "%s has been deleted"
+msgstr "%s silindi"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-shortcodes.php:73
+msgid "%s has been hidden"
+msgstr "%s gizlendi"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-shortcodes.php:80
+msgid "%s has been published"
+msgstr "%s yayınlandı"
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-shortcodes.php:105
+msgid "You need to be signed in to view this page."
+msgstr "Bu sayfayı görebilmek için giriş yapmalısınız."
+
+# @ wp-job-manager-resumes
+#: includes/class-wp-resume-manager-shortcodes.php:216
+#: includes/class-wp-resume-manager-shortcodes.php:246
+msgid "Load more resumes"
+msgstr "Daha fazla özgeçmiş yükle"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:43
+msgid "Invalid resume"
+msgstr "Geçersiz özgeçmiş"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:81
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:109
+msgid "Your changes have been saved."
+msgstr "Değişiklikleriniz kaydedildi."
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:109
+msgid "View Resume &rarr;"
+msgstr "Özgeçmişi Göster &rarr;"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:25
+msgid "Submit Details"
+msgstr "Detayları Gönder"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:31
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:860
+msgid "Preview"
+msgstr "Görüntüle"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:37
+msgid "Done"
+msgstr "Bitti"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:43
+msgid "Application"
+msgstr "Başvuru"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:147
+msgid "Your name"
+msgstr "Adayın Adı"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:150
+msgid "Your full name"
+msgstr "Adayın Tam Adı"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:154
+msgid "Your email"
+msgstr "Adayın Epostası"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:164
+msgid "e.g. \"Web Developer\""
+msgstr "örnek.  \"Web Geliştiricisi\""
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:191
+msgid "A link to a video about yourself"
+msgstr "Kendi hakkınızda bir filmin bağlantı adresi"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:194
+msgid "Resume category"
+msgstr "Özgeçmiş Kategorisi"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:202
+msgid "Resume Content"
+msgstr "Özgeçmiş İçeriği"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:212
+msgid "Comma separate a list of relevant skills"
+msgstr "İlişkili nitelikleri virgüller ile ayırarak ekleyin."
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:310
+msgid ""
+"Optionally upload your resume for employers to view. Max. file size: %s."
+msgstr ""
+"İşverenlerin görmesi için opsiyonel olarak özgeçmişi dosya olarak da "
+"ekleyebilirsiniz. En büyük dosya boyutu: %s."
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:532
+msgid "%s is a required field"
+msgstr "%s gerekli bir alan"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:538
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:543
+msgid "%s is invalid"
+msgstr "%s geçersiz"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:640
+msgid "Preview &rarr;"
+msgstr "Görüntüle &rarr;"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:670
+msgid "Please enter a username."
+msgstr "Lütfen bir KullanıcıAdı Girin."
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:673
+msgid "Please enter your email address."
+msgstr "Lütfen epostanızı girin."
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:695
+msgid "You must be signed in to post your resume."
+msgstr "Özgeçmişi göndermek için giriş yapmalısınız."
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:853
+msgid "Submit Resume &rarr;"
+msgstr "Özgeçmişi Gönder &rarr;"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:854
+msgid "&larr; Edit resume"
+msgstr "&larr; Özgeçmişi düzenle"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:928
+msgid ""
+"Enter a message below to apply to \"%s\". This will accompany your online "
+"resume and be sent to the employer."
+msgstr ""
+"\"%s\" işine başvurmak için aşağıya mesajınızı girin. Bu mesaj, işeveren "
+"giden özgeçmişinize eklenecektir."
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:930
+#: templates/apply-with-resume.php:22
+msgid "Message"
+msgstr "Mesaj"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:934
+#: templates/apply-with-resume.php:36
+msgid "Send application"
+msgstr "Başvuruyu gönder"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:959
+msgid "Please enter a message"
+msgstr "Lütfen bir mesaj girin"
+
+# @ wp-job-manager-resumes
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:966
+msgid "Error sending application."
+msgstr "Başvuruyu gönderirken hata oluştu."
+
+# @ wp-job-manager
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:1015
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:1041
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr "\"%s\" (%s dosya türü) şu dosya türlerinden biri olmak zorunda: %s"
+
+# @ default
+#: includes/updater/views/html-key-input.php:4
+msgid "Licence"
+msgstr "Lisans"
+
+# @ default
+#: includes/updater/views/html-key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"Geçerli bir lisans anahtarı ve eposta girip enter tuşuna basın. Otomatik "
+"güncellemeler için geçerli bir anahtar gereklidir."
+
+# @ default
+#: includes/updater/views/html-key-notice.php:2
+msgid "Hide notice"
+msgstr "Uyarıyı gizle"
+
+# @ default
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"%1$ için yeni versiyon bulunuyor. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\">%3$s versiyonunun detaylarını görüntüleyin</a> veya <a href="
+"\"%4$s\">şimdi güncelleyin</a>."
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-functions.php:194
+msgid "Reset"
+msgstr "Sıfırla"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-functions.php:330
+msgctxt "post status"
+msgid "Draft"
+msgstr "Taslak"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-functions.php:331
+msgctxt "post status"
+msgid "Expired"
+msgstr "Süresi Dolmuş"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-functions.php:333
+msgctxt "post status"
+msgid "Preview"
+msgstr "Görüntüle"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-functions.php:334
+msgctxt "post status"
+msgid "Pending approval"
+msgstr "Onay bekliyor"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-functions.php:335
+msgctxt "post status"
+msgid "Pending payment"
+msgstr "Ödeme bekliyor"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-functions.php:336
+msgctxt "post status"
+msgid "Published"
+msgstr "Yayımlanmış"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-template.php:170
+msgid "Published"
+msgstr "Yayınlanmış"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-template.php:172
+msgid "Expired"
+msgstr "Sona Ermiş"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-template.php:174
+msgid "Pending Review"
+msgstr "Onay Bekliyor"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-template.php:176
+msgid "Hidden"
+msgstr "Gizli"
+
+# @ wp-job-manager-resumes
+#: includes/wp-resume-manager-template.php:178
+msgid "Inactive"
+msgstr "Aktif Değil"
+
+# @ wp-job-manager-resumes
+#: templates/access-denied-browse-resumes.php:1
+msgid "Sorry, you do not have permission to browse resumes."
+msgstr "Üzgünüz, özgeçmişleri görmek için yetkiniz yok."
+
+# @ wp-job-manager-resumes
+#: templates/access-denied-single-resume.php:2
+msgid "This listing has expired"
+msgstr "Bu ilan sonlanmış"
+
+# @ wp-job-manager-resumes
+#: templates/access-denied-single-resume.php:4
+msgid "Sorry, you do not have permission to view this resume."
+msgstr "Üzgünüz, bu özgeçmişi görmek için yetkiniz yok."
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:4
+msgid "Your account"
+msgstr "Hesabınız"
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:8
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "<strong>%s</strong> olarak giriş yapmış bulunuyorsunuz."
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:11
+msgid "Sign out"
+msgstr "Çıkış Yap"
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:22
+msgid "Have an account?"
+msgstr "Hesabınız var mı?"
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:24
+msgid "Sign in"
+msgstr "Giriş Yap"
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:28
+msgid ""
+"If you don&rsquo;t have an account you can create one below by entering your "
+"email address. A password will be automatically emailed to you."
+msgstr ""
+"Eğer bir hesabınız yoksa aşağıya epostanızı girerk oluşturabilirsiniz. Size "
+"parola gönderilecektir."
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:32
+msgid "You must sign in to submit a resume."
+msgstr "Özgeçmiş göndermek için giriş yapmalısınız."
+
+#: templates/account-signin.php:40
+msgid "Username"
+msgstr "KullanıcıAdı"
+
+# @ wp-job-manager-resumes
+#: templates/account-signin.php:40 templates/form-fields/education-field.php:7
+#: templates/form-fields/education-field.php:30
+#: templates/form-fields/experience-field.php:7
+#: templates/form-fields/experience-field.php:30
+#: templates/form-fields/links-field.php:7
+#: templates/form-fields/links-field.php:30 templates/resume-submit.php:32
+msgid "(optional)"
+msgstr "(opsiyonel)"
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:9
+msgid ""
+"Apply using your online resume; just enter a short message and choose one of "
+"your resumes to email your application."
+msgstr ""
+"Burada oluşturduğunuz özgeçmişinizi kullanarak başvurun; sadece kısa bir ön "
+"mesaj ekleyip, özgeçmişlerinizden birini seçin."
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:11
+msgid "Online resume"
+msgstr "Çevrimiçi Özgeçmiş"
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:13
+msgid "Choose a resume..."
+msgstr "Özgeçmiş seçin..."
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:27
+msgctxt "default cover letter"
+msgid "To whom it may concern,"
+msgstr "Sayın İlgili,"
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:29
+msgctxt "default cover letter"
+msgid ""
+"I am very interested in the %s position at %s. I believe my skills and work "
+"experience make me an ideal candidate for this role. I look forward to "
+"speaking with you soon about this position."
+msgstr ""
+" %s pozisyonu ile %s firmasındaki iş ile ilgileniyorum. İnanıyorum ki "
+"niteliklerim ve iş deneyimlerim beni bu pozisyon için ideal bir aday "
+"yapıyor. Konu ile ilgili olarak sizlerle görüşebilmek isterim."
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:31
+msgctxt "default cover letter"
+msgid "Thank you for your consideration."
+msgstr "İlginiz için teşekkür ederim."
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:42
+msgid ""
+"You can apply to this job and others using your online resume. Click the "
+"link below to submit your online resume and email your application to this "
+"employer."
+msgstr ""
+"Burada oluşturduğunuz özgeçmişiniz ile bu işe veya diğerlerine "
+"başvurabilirsiniz. Çevrim için özgeçmişinizi ekledikten sonra aşağıya "
+"tıklayarak işverene  epostanızı yollayarak başvurabilirsiniz."
+
+# @ wp-job-manager-resumes
+#: templates/apply-with-resume.php:45
+msgid "Submit resume and apply"
+msgstr "Özgeçmişi gönder ve uygula"
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:3
+msgid "Your resume(s) are shown in the table below."
+msgstr "Özgeçmiş(ler)inizi aşağıdaki tabloda görebilirsiniz."
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:8
+msgid "Title"
+msgstr "Başlık"
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:11 templates/resume-filters.php:23
+msgid "Category"
+msgstr "Kategori"
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:19
+msgid "You do not have any active resume listings."
+msgstr "Aktif özgeçmişiniz bulunmuyor."
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:33
+msgid "Hide"
+msgstr "Gizle"
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:37
+msgid "Publish"
+msgstr "Yayınla"
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:41
+msgid "Relist"
+msgstr "Yeniden listele"
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:68
+msgid "Expires %s"
+msgstr "Sonlanma Tarihi %s"
+
+# @ wp-job-manager-resumes
+#: templates/candidate-dashboard.php:82
+msgid "Add Resume"
+msgstr "Özgeçmiş Ekle"
+
+# @ wp-job-manager-resumes
+#: templates/contact-details-email.php:1
+msgid ""
+"To contact this candidate email <a class=\"job_application_email\" href="
+"\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr ""
+"Bu adaya epostası ile ulaşmak için <a class=\"job_application_email\" href="
+"\"mailto:%1$s%2$s\">%1$s</a>"
+
+# @ wp-job-manager-resumes
+#: templates/contact-details-email.php:4
+msgid "Contact using webmail: "
+msgstr "Site epostası üzerinden iletişime geçin: "
+
+# @ wp-job-manager-resumes
+#: templates/content-resume.php:15 templates/content-single-resume.php:71
+msgid "Updated %s ago"
+msgstr "%s önce güncellenmiş"
+
+# @ wp-job-manager-resumes
+#: templates/content-single-resume.php:34
+#: templates/content-single-resume.php:53
+msgid "%s at %s"
+msgstr "%s de %s"
+
+# @ wp-job-manager-resumes
+#: templates/form-fields/education-field.php:4
+#: templates/form-fields/education-field.php:27
+#: templates/form-fields/experience-field.php:4
+#: templates/form-fields/experience-field.php:27
+#: templates/form-fields/links-field.php:4
+#: templates/form-fields/links-field.php:27
+msgid "Remove"
+msgstr "Kaldır"
+
+# @ wp-job-manager-resumes
+#: templates/linkedin-import.php:6
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+# @ wp-job-manager-resumes
+#: templates/linkedin-import.php:8
+msgid "Import from LinkedIn"
+msgstr "LinkedIn bilgilerimi kullan"
+
+# @ wp-job-manager-resumes
+#: templates/resume-filters.php:8
+msgid "Keywords"
+msgstr "Anahtar Kelimeler"
+
+# @ wp-job-manager-resumes
+#: templates/resume-filters.php:9
+msgid "All Resumes"
+msgstr "Tüm Özgeçmişler"
+
+# @ wp-job-manager-resumes
+#: templates/resume-filters.php:14
+msgid "Any Location"
+msgstr "Her türlü Lokasyon"
+
+# @ wp-job-manager-resumes
+#: templates/resume-filters.php:27
+msgid "Any category"
+msgstr "Tüm kategoriler"
+
+#: templates/resume-submitted-notification.php:9
+msgid ""
+"A new resume has just been submitted by *%s*. The details of their resume "
+"are as follows:"
+msgstr ""
+"*%s* tarafından yeni bir özgeçmiş yüklendi. Özgeçmişin detayları şöyle:"
+
+#: templates/resume-submitted-notification.php:22
+msgid "The content of their resume is as follows:"
+msgstr "Özgeçmişin içeriği aşağıdaki gibidir:"
+
+#: templates/resume-submitted-notification.php:27
+msgid "Links:"
+msgstr "Bağlantılar:"
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted-notification.php:36
+msgid "Education:"
+msgstr "Eğitim:"
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted-notification.php:38
+msgid "Location: %s"
+msgstr "Lokasyon: %s"
+
+#: templates/resume-submitted-notification.php:39
+#: templates/resume-submitted-notification.php:51
+msgid "Date: %s"
+msgstr "Tarih: %s"
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted-notification.php:40
+msgid "Qualification: %s"
+msgstr "Nitelik(ler): %s"
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted-notification.php:48
+msgid "Experience:"
+msgstr "Deneyim:"
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted-notification.php:50
+msgid "Employer: %s"
+msgstr "İşveren: %s"
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted-notification.php:52
+msgid "Job Title: %s"
+msgstr "Pozisyon başlığı: %s"
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted-notification.php:58
+msgid "You can view this resume here: %s"
+msgstr "Çevrim içi özgeçmişleri görebileceğiniz yer: %s"
+
+#: templates/resume-submitted-notification.php:59
+msgid "You can view/edit this resume in the backend by clicking here: %s"
+msgstr ""
+"Bu özgeçmişi arka tarafta görüntülemek/düzenlemek için %s adresine "
+"gidebilirsiniz."
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted.php:5
+msgid ""
+"Resume submitted successfully. To view your resume <a href=\"%s\">click "
+"here</a>."
+msgstr ""
+"Özgeçmiş başarıyla gönderildi. Özgeçmişinizi görüntülemek için <a href=\"%s"
+"\">buraya tıklayın</a>."
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted.php:7
+msgid "Resume submitted successfully."
+msgstr "Özgeçmiş başarıyla gönderildi."
+
+# @ wp-job-manager-resumes
+#: templates/resume-submitted.php:11
+msgid ""
+"Resume submitted successfully. Your resume will be visible once approved."
+msgstr "Özgeçmiş başarıyla gönderildi. Onaylanınca görünür hale gelecektir."
+
+# @ wp-job-manager-resumes
+#: wp-job-manager-resumes.php:130
+msgid ""
+"If you wish to edit the posted details use the \"edit resume\" button "
+"instead, otherwise changes may be lost."
+msgstr ""
+"Eğer yayınladığınızda düzeltme yapmak isterseniz  \"edit resume\" butonunu "
+"kullanın, aksi halde değişiklikleriniz kaybolabilir."
+
+# @ wp-job-manager-resumes
+#: wp-job-manager-resumes.php:131
+msgid "Are you sure you want to remove this item?"
+msgstr "Bu bilgiyi kaldırmak istediğinizden emin misiniz?"
+
+# @ wp-job-manager-resumes
+#: wp-job-manager-resumes.php:137
+msgid "Are you sure you want to delete this resume?"
+msgstr "Bu özgeçmişi silmekte kararlı mısınız?"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Resume Manager"
+msgstr "mepCV - Özgeçmiş Yönetimi"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/resume-manager/"
+msgstr "https://wpjobmanager.com/add-ons/resume-manager/"
+
+#. Description of the plugin/theme
+msgid ""
+"Manage canidate resumes from the WordPress admin panel, and allow candidates "
+"to post their resumes directly to your site."
+msgstr ""
+"Adayların özgeçmişlerini, Wordpress yönetici paneli üzerinden yönetin ve "
+"adayların, özgeçmişlerini sitenize direkt olarak eklemelerine izin verin."
+
+#. Author of the plugin/theme
+msgid "Mike Jolley"
+msgstr "MEPortal"
+
+#. Author URI of the plugin/theme
+msgid "http://mikejolley.com"
+msgstr "http://mepcv.com"
+
+# @ wp-job-manager-resumes
+#~ msgid "Resume categories"
+#~ msgstr "Özgeçmiş kategorileri"
+

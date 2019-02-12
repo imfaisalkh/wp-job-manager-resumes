@@ -1,0 +1,1811 @@
+# Copyright (C) 2015 WP Job Manager - Resume Manager
+# This file is distributed under the same license as the WP Job Manager - Resume Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Resume Manager 1.12.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-job-manager-resumes\n"
+"POT-Creation-Date: 2015-07-25 12:48-0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-07-25 15:59-0600\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_CR\n"
+
+#: includes/admin/class-wp-resume-manager-admin.php:64
+msgid "Settings"
+msgstr "Configuración"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:49
+#: includes/admin/class-wp-resume-manager-cpt.php:50
+msgid "Approve Resumes"
+msgstr "Aprovar CV"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:118
+#: includes/admin/class-wp-resume-manager-cpt.php:120
+msgid "%s approved"
+msgstr "%s Aprobado"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:168
+msgid "Select a category"
+msgstr "Seleccione una categoría"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:200
+msgid "Candidate name"
+msgstr "Nombre candidato"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:215
+msgid "Resume updated. <a href=\"%s\">View Resume</a>"
+msgstr "CV actualizado. <a href=\"%s\">Ver CV</a>"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:216
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:217
+msgid "Custom field deleted."
+msgstr "Campo personalizado borrado"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:218
+msgid "Resume updated."
+msgstr "CV actualizado"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:219
+msgid "Resume restored to revision from %s"
+msgstr "CV restaurado para revisión %s"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:220
+msgid "Resume published. <a href=\"%s\">View Resume</a>"
+msgstr "CV publicado. <a href=\"%s\">Ver CV</a>"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:221
+msgid "Resume saved."
+msgstr "CV guardado"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:222
+msgid "Resume submitted. <a target=\"_blank\" href=\"%s\">Preview Resume</a>"
+msgstr "CV enviado. <a target=\"_blank\" href=\"%s\">Vista previa CV</a>"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:223
+msgid ""
+"Resume scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Resume</a>"
+msgstr ""
+"CV programado por: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Vista previa CV</a>"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:224
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:225
+msgid ""
+"Resume draft updated. <a target=\"_blank\" href=\"%s\">Preview Resume</a>"
+msgstr ""
+"Borrador CV actualizado <a target=\"_blank\" href=\"%s\">Vista previa CV</a>"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:244
+#: includes/class-wp-resume-manager-install.php:64
+msgid "Candidate"
+msgstr "Candidato"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:245
+#: includes/class-wp-resume-manager-widgets.php:40
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:153
+#: templates/candidate-dashboard.php:13 templates/resume-filters.php:13
+msgid "Location"
+msgstr "Localización"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:246
+#: templates/candidate-dashboard.php:17
+msgid "Status"
+msgstr "Estatus"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:247
+msgid "Posted"
+msgstr "Publicado"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:248
+#: includes/admin/class-wp-resume-manager-writepanels.php:68
+msgid "Expires"
+msgstr "Vence"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:251
+#: includes/admin/class-wp-resume-manager-settings.php:85
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:195
+#: templates/content-single-resume.php:20
+msgid "Skills"
+msgstr "Habilidades"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:255
+#: includes/admin/class-wp-resume-manager-settings.php:56
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:258
+msgid "Featured?"
+msgstr "Destacado?"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:259
+msgid "Actions"
+msgstr "Acciones"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:361
+msgid "Resume ID: %d"
+msgstr "CV ID: %d"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:377
+#: includes/admin/class-wp-resume-manager-cpt.php:382
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:378
+msgid "by a guest"
+msgstr "por un visitante"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:378
+msgid "by %s"
+msgstr "por %s"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:400
+msgid "Approve"
+msgstr "Aprobar"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:408
+msgid "View"
+msgstr "Ver"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:414
+msgid "Email Candidate"
+msgstr "Email candidato"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:420
+#: includes/class-wp-resume-manager-post-types.php:198
+#: templates/candidate-dashboard.php:36 templates/candidate-dashboard.php:40
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/admin/class-wp-resume-manager-cpt.php:425
+#: templates/candidate-dashboard.php:50
+msgid "Delete"
+msgstr "Eliminar"
+
+#: includes/admin/class-wp-resume-manager-settings.php:43
+msgid "Resume Listings"
+msgstr "Listados de CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:49
+msgid "Resumes Per Page"
+msgstr "CV por pagina"
+
+#: includes/admin/class-wp-resume-manager-settings.php:50
+msgid "How many resumes should be shown per page by default?"
+msgstr "Cuantos CV se deben mostrar por pagina, por defecto?"
+
+#: includes/admin/class-wp-resume-manager-settings.php:57
+msgid "Enable resume categories"
+msgstr "Habilitar categorías de CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:58
+msgid ""
+"Choose whether to enable resume categories. Categories must be setup by an "
+"admin for users to choose during job submission."
+msgstr ""
+"Elija si desea habilitar categorías curriculum vitae. Categorías deben ser "
+"configurados por un administrador para que los usuarios elijan durante el "
+"envío de trabajos."
+
+#: includes/admin/class-wp-resume-manager-settings.php:65
+msgid "Multi-select Categories"
+msgstr "Multi selección de categorías"
+
+#: includes/admin/class-wp-resume-manager-settings.php:66
+msgid "Enable category multiselect by default"
+msgstr "Habilitar multi selección de categorías"
+
+#: includes/admin/class-wp-resume-manager-settings.php:67
+#: includes/admin/class-wp-resume-manager-settings.php:75
+msgid ""
+"If enabled, the category select box will default to a multiselect on the "
+"[resumes] shortcode."
+msgstr ""
+"Si se activa, el cuadro de selección de categoría será predeterminado a una "
+"selección múltiple en el código corto."
+
+#: includes/admin/class-wp-resume-manager-settings.php:74
+msgid "Category Filter Type"
+msgstr "Filtro de tipo de categoría"
+
+#: includes/admin/class-wp-resume-manager-settings.php:78
+msgid "Resumes will be shown if within ANY selected category"
+msgstr "CV se le aparecen dentro de cualquier categoría seleccionada"
+
+#: includes/admin/class-wp-resume-manager-settings.php:79
+msgid "Resumes will be shown if within ALL selected categories"
+msgstr "CV se le aparecen dentro de TODAS las categorías seleccionadas"
+
+#: includes/admin/class-wp-resume-manager-settings.php:86
+msgid "Enable resume skills"
+msgstr "Habilitar habilidades en el CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:87
+msgid ""
+"Choose whether to enable the resume skills field. Skills work like tags and "
+"can be added by users during resume submission."
+msgstr ""
+"Elija si desea habilitar el campo de las habilidades del curriculum vitae. "
+"Habilidades funcionan como etiquetas y se pueden agregar los usuarios "
+"durante la presentación del curriculum vitae."
+
+#: includes/admin/class-wp-resume-manager-settings.php:94
+msgid "Maximum Skills"
+msgstr "Habilidades máximas"
+
+#: includes/admin/class-wp-resume-manager-settings.php:95
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: includes/admin/class-wp-resume-manager-settings.php:96
+msgid ""
+"Enter the number of skills per resume submission you wish to allow, or leave "
+"blank for unlimited skills."
+msgstr ""
+"Digite el número de habilidades para el envio del curriculum vitae  o dejar "
+"en blanco para capacidades ilimitadas."
+
+#: includes/admin/class-wp-resume-manager-settings.php:102
+msgid "Resume Upload"
+msgstr "Subir CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:103
+msgid "Enable resume upload"
+msgstr "Habilitar subida CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:104
+msgid "Choose whether to allow candidates to upload a resume file."
+msgstr ""
+"Elija si desea permitir que los candidatos puedan subir un archivo de hoja "
+"de vida."
+
+#: includes/admin/class-wp-resume-manager-settings.php:111
+msgid "Resume Submission"
+msgstr "Envio de CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:116
+msgid "Account Required"
+msgstr "Cuenta requerida"
+
+#: includes/admin/class-wp-resume-manager-settings.php:117
+msgid "Submitting listings requires an account"
+msgstr "Enviar listados requiere tener una cuenta"
+
+#: includes/admin/class-wp-resume-manager-settings.php:118
+msgid ""
+"If disabled, non-logged in users will be able to submit listings without "
+"creating an account. Please note that this will prevent non-registered users "
+"from being able to edit their listings at a later date."
+msgstr ""
+"Si está desactivado,  los usuarios no registrados podrán presentar anuncios "
+"sin crear una cuenta. Tenga en cuenta que esto evitará que los usuarios no "
+"registrados puedan editar sus anuncios en una fecha posterior."
+
+#: includes/admin/class-wp-resume-manager-settings.php:125
+msgid "Account Creation"
+msgstr "Creación de cuenta"
+
+#: includes/admin/class-wp-resume-manager-settings.php:126
+msgid "Allow account creation"
+msgstr "Permitir creación de cuenta"
+
+#: includes/admin/class-wp-resume-manager-settings.php:127
+msgid ""
+"If enabled, non-logged in users will be able to create an account by "
+"entering their email address on the resume submission form."
+msgstr ""
+"Si se activa, no los usuarios registrados podrán crear una cuenta "
+"introduciendo su dirección de correo electrónico en el formulario de "
+"presentación de curriculum vitae."
+
+#: includes/admin/class-wp-resume-manager-settings.php:134
+msgid "Account Username"
+msgstr "Nombre de usuario de la cuenta"
+
+#: includes/admin/class-wp-resume-manager-settings.php:135
+msgid "Automatically Generate Username from Email Address"
+msgstr "Generar automáticamente el nombre de usuario usando el email"
+
+#: includes/admin/class-wp-resume-manager-settings.php:136
+msgid ""
+"If enabled, a username will be generated from the first part of the user "
+"email address. Otherwise, a username field will be shown."
+msgstr ""
+"Si se activa, un nombre de usuario se genera a partir de la primera parte de "
+"la dirección de correo electrónico del usuario. De lo contrario, se mostrará "
+"un campo de nombre de usuario."
+
+#: includes/admin/class-wp-resume-manager-settings.php:143
+msgid "Account Role"
+msgstr "Roll de la cuenta"
+
+#: includes/admin/class-wp-resume-manager-settings.php:144
+msgid ""
+"If you enable registration on your submission form, choose a role for the "
+"new user."
+msgstr ""
+"Si habilita el registro en el formulario de presentación, elegir un roll "
+"para el nuevo usuario."
+
+#: includes/admin/class-wp-resume-manager-settings.php:151
+msgid "Approval Required"
+msgstr "Aprobación requerida"
+
+#: includes/admin/class-wp-resume-manager-settings.php:152
+msgid "New submissions require admin approval"
+msgstr "Los nuevos envíos requieren aprobación del administrador"
+
+#: includes/admin/class-wp-resume-manager-settings.php:153
+msgid "If enabled, new submissions will be inactive, pending admin approval."
+msgstr ""
+"Si está habilitado, las nuevas presentaciones estarán inactivas, en espera "
+"de la aprobación del administrador."
+
+#: includes/admin/class-wp-resume-manager-settings.php:160
+msgid "Email New Submissions"
+msgstr "Email nuevos envios"
+
+#: includes/admin/class-wp-resume-manager-settings.php:161
+msgid "Email resume details to the admin user after submission."
+msgstr ""
+"Emaillos detalels del  curriculum vitae al usuario administrador después de "
+"la inclusión."
+
+#: includes/admin/class-wp-resume-manager-settings.php:162
+msgid ""
+"If enabled, all resume details for new submissions will be emailed to %s."
+msgstr ""
+"Si se activa, todos los detalles del curriculum vitae para nuevas "
+"presentaciones serán enviadas por correo electrónico a %s."
+
+#: includes/admin/class-wp-resume-manager-settings.php:169
+msgid "Listing Duration"
+msgstr "Duración del listado"
+
+#: includes/admin/class-wp-resume-manager-settings.php:170
+msgid ""
+"How many <strong>days</strong> listings are live before expiring. Can be "
+"left blank to never expire. Expired listings must be relisted to become "
+"visible."
+msgstr ""
+"Cuántos <strong> días </ strong> son listados en vivo antes de expirar. Se "
+"puede dejar en blanco para que no caduque nunca. Anuncios caducados deben "
+"relistados para hacerse visibles."
+
+#: includes/admin/class-wp-resume-manager-settings.php:172
+msgid "Never expire"
+msgstr "Nunca vence"
+
+#: includes/admin/class-wp-resume-manager-settings.php:177
+msgid "Auto-hide Resumes"
+msgstr "Auto ocultar CVs"
+
+#: includes/admin/class-wp-resume-manager-settings.php:178
+msgid ""
+"How many <strong>days</strong> un-modified resumes should be published "
+"before being hidden. Can be left blank to never hide resumes automaticaly. "
+"Candidates can re-publish hidden resumes form their dashboard."
+msgstr ""
+"¿Cuántos <strong> días </ strong>los CV NO modificados deben publicarse "
+"antes de ser ocultados. Se puede dejar en blanco para no ocultar hojas de "
+"vida de forma automática. Los candidatos pueden volver a publicar currículos "
+"ocultos desde su panel de control."
+
+#: includes/admin/class-wp-resume-manager-settings.php:180
+msgid "Never auto-hide"
+msgstr "Nunca auto ocultar"
+
+#: includes/admin/class-wp-resume-manager-settings.php:185
+msgid "Listing Limit"
+msgstr "Límite del listado"
+
+#: includes/admin/class-wp-resume-manager-settings.php:186
+msgid ""
+"How many listings are users allowed to post. Can be left blank to allow "
+"unlimited listings per account."
+msgstr ""
+"¿Cuántos anuncios pueden los  usuarios publicar. Se puede dejar en blanco "
+"para permitir anuncios ilimitados por cuenta."
+
+#: includes/admin/class-wp-resume-manager-settings.php:188
+msgid "No limit"
+msgstr "Sin límite"
+
+#: includes/admin/class-wp-resume-manager-settings.php:193
+msgid "Linkedin Import"
+msgstr "Importar de linkedin"
+
+#: includes/admin/class-wp-resume-manager-settings.php:194
+msgid "Allow import of resume data from LinkedIn"
+msgstr "Permitir la importación de datos de CV desde Linkedin"
+
+#: includes/admin/class-wp-resume-manager-settings.php:195
+msgid ""
+"If enabled, users will be able to login to LinkedIn and have the resume "
+"submission form automatically populated."
+msgstr ""
+"Si está habilitado, los usuarios podrán acceder a LinkedIn y tener el "
+"formulario de presentación de curriculum vitae rellenado automáticamente."
+
+#: includes/admin/class-wp-resume-manager-settings.php:202
+msgid "Linkedin Api Key"
+msgstr "API KEY de Linkedin"
+
+#: includes/admin/class-wp-resume-manager-settings.php:203
+msgid ""
+"Get your API key by creating a new application on https://www.linkedin.com/"
+"secure/developer"
+msgstr ""
+"Obtenga su clave de API mediante la creación de una nueva aplicación en "
+"https://www.linkedin.com/secure/developer"
+
+#: includes/admin/class-wp-resume-manager-settings.php:209
+msgid "Apply with Resume"
+msgstr "Aplicar con CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:214
+msgid "Email Application Method"
+msgstr "Método de aplicación por Email"
+
+#: includes/admin/class-wp-resume-manager-settings.php:215
+msgid ""
+"Allow candidates to apply to jobs which use the email application method"
+msgstr ""
+"Permitir a los candidatos aplicar a los trabajos que utilizan el método de "
+"aplicación de correo electrónico"
+
+#: includes/admin/class-wp-resume-manager-settings.php:216
+msgid ""
+"If a candidate applies to a job with their online resume, the employer will "
+"be mailed their message and a private link to the resume."
+msgstr ""
+"Si un candidato se aplica a un trabajo con su curriculum vitae en línea, el "
+"empleador recibira su mensaje y un enlace privado a la hoja de vida."
+
+#: includes/admin/class-wp-resume-manager-settings.php:222
+msgid "Website URL Application Method"
+msgstr "Método de aplicación por URL de website"
+
+#: includes/admin/class-wp-resume-manager-settings.php:223
+msgid ""
+"Allow candidates to apply to jobs which use the the website URL application "
+"method"
+msgstr ""
+"Permitir a los candidatos aplicar  a los trabajos que utilizan el método de "
+"la aplicación de URL del sitio web"
+
+#: includes/admin/class-wp-resume-manager-settings.php:224
+msgid ""
+"If a candidate applies to a job with their online resume, the application "
+"will be stored in the database."
+msgstr ""
+"Si un candidato se aplica a un trabajo con su curriculum vitae en línea, la "
+"aplicación se almacena en la base de datos."
+
+#: includes/admin/class-wp-resume-manager-settings.php:230
+msgid "Force Apply With Resume"
+msgstr "Forzar el aplicar con CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:231
+msgid "Force candidates to create a resume and apply through resume manager"
+msgstr ""
+"Forzar a los Candidatos a crear un curriculum vitae y a aplicar a través de "
+"la gestión del CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:232
+msgid ""
+"Candidates without a resume on file will be taken through the resume "
+"submission process to apply for a job. Other details, such as the "
+"application email address, will be hidden."
+msgstr ""
+"Los candidatos que tengan una hoja de vida en el archivo serán tomadas a "
+"través del proceso de presentación de curriculum vitae para buscar trabajo. "
+"Otros detalles, como la dirección de correo electrónico de solicitud, se "
+"ocultarán."
+
+#: includes/admin/class-wp-resume-manager-settings.php:239
+msgid "Pages"
+msgstr "Páginas"
+
+#: includes/admin/class-wp-resume-manager-settings.php:244
+msgid "Submit Resume Page"
+msgstr "Pagina de Envió CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:245
+msgid ""
+"Select the page where you have placed the [submit_resume_form] shortcode. "
+"This lets the plugin know where the form is located."
+msgstr ""
+"Seleccione la página donde ha colocado el código corto "
+"[submit_resume_form] . Esto permite que el plugin reconozca donde se "
+"encuentra el formulario."
+
+#: includes/admin/class-wp-resume-manager-settings.php:251
+msgid "Candidate Dashboard Page"
+msgstr "Página de panel de control del candidato"
+
+#: includes/admin/class-wp-resume-manager-settings.php:252
+msgid ""
+"Select the page where you have placed the [candidate_dashboard] shortcode. "
+"This lets the plugin know where the dashboard is located."
+msgstr ""
+"Seleccione la página en la que ha colocado el código corto. "
+"[candidate_dashboard]  Esto permite que el plugin identifique donde se "
+"encuentra el tablero de control."
+
+#: includes/admin/class-wp-resume-manager-settings.php:258
+msgid "Resume Listings Page"
+msgstr "Página de listado de CV"
+
+#: includes/admin/class-wp-resume-manager-settings.php:259
+msgid ""
+"Select the page where you have placed the [resumes] shortcode. This lets the "
+"plugin know where the resume listings page is located."
+msgstr ""
+"Seleccione la página donde ha colocado el código corto [currículos]  Esto "
+"permite que el plugin identifique donde se encuentra la página de CVs."
+
+#: includes/admin/class-wp-resume-manager-settings.php:265
+msgid "Resume Visibility"
+msgstr "Visibilidad de CVs"
+
+#: includes/admin/class-wp-resume-manager-settings.php:270
+msgid "Browse Resume Capability"
+msgstr "Capacidad de navegar por los CVs"
+
+#: includes/admin/class-wp-resume-manager-settings.php:272
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes. "
+"Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Introduzca la  <a href=\"%s\">capacidad</a> para navegar por  los CVs. "
+"Soporta una lista de roles separada por comas."
+
+#: includes/admin/class-wp-resume-manager-settings.php:277
+msgid "View Resume Capability"
+msgstr "Ver capacidad de CVs"
+
+#: includes/admin/class-wp-resume-manager-settings.php:279
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Entre la  <a href=\"%s\">capacidad</a> requerida para ver un CV. Soporta una "
+"lista de roles separada por comas."
+
+#: includes/admin/class-wp-resume-manager-settings.php:284
+msgid "Contact Details Capability"
+msgstr "Capacidad de detalles de contacto"
+
+#: includes/admin/class-wp-resume-manager-settings.php:286
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Entre la  <a href=\"%s\">capacidad</a> requerida para ver los detalles de un "
+"CV. Soporta una lista de roles separada por comas."
+
+#: includes/admin/class-wp-resume-manager-setup.php:31
+msgid "Setup"
+msgstr "Configuración"
+
+#: includes/admin/class-wp-resume-manager-setup.php:128
+msgid "Resume Manager Setup"
+msgstr "Configuración del gestor de CVs"
+
+#: includes/admin/class-wp-resume-manager-setup.php:131
+msgid "1. Introduction"
+msgstr "Introducción"
+
+#: includes/admin/class-wp-resume-manager-setup.php:132
+msgid "2. Page Setup"
+msgstr "Página de Configuración "
+
+#: includes/admin/class-wp-resume-manager-setup.php:133
+msgid "3. Done"
+msgstr "Hecho"
+
+#: includes/admin/class-wp-resume-manager-setup.php:138
+msgid "Setup Wizard Introduction"
+msgstr "Introducción al asistente de ayuda"
+
+#: includes/admin/class-wp-resume-manager-setup.php:140
+msgid "Thanks for installing <em>Resume Manager</em>!"
+msgstr "Gracias por instalar <em>Resume Manager</em>!"
+
+#: includes/admin/class-wp-resume-manager-setup.php:141
+msgid ""
+"This setup wizard will help you get started by creating the pages for resume "
+"submission, resume management, and resume listing."
+msgstr ""
+"Este asistente de configuración le ayudará a empezar por la creación de las "
+"páginas de presentación del curriculum vitae, la gestión de envío y la lista "
+"de CVs."
+
+#: includes/admin/class-wp-resume-manager-setup.php:142
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, the process is still reletively simple. Refer to the "
+"%sdocumentation%s for help."
+msgstr ""
+"Si desea omitir el asistente de configuración y las páginas y códigos cortos "
+"a sí mismo de forma manual, el proceso es aún relativamente simple. Consulte "
+"la % sdocumentation%s en busca de ayuda."
+
+#: includes/admin/class-wp-resume-manager-setup.php:145
+msgid "Continue to page setup"
+msgstr "Continuar a configuración de paginas"
+
+#: includes/admin/class-wp-resume-manager-setup.php:146
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "Saltarse la configuración. Lo haré manualmente"
+
+#: includes/admin/class-wp-resume-manager-setup.php:152
+msgid "Page Setup"
+msgstr "Configuración pagina"
+
+#: includes/admin/class-wp-resume-manager-setup.php:154
+msgid ""
+"<em>Resume Manager</em> includes %1$sshortcodes%2$s which can be used within "
+"your %3$spages%2$s to output content. These can be created for you below. "
+"For more information on the resume shortcodes view the %4$sshortcode "
+"documentation%2$s."
+msgstr ""
+"<em>Resume Manager</em>incluye %1$sshortcodes%2$s  que pueden ser usados "
+"dentro de  %3$spages%2$s para mostrar el contenido. Estas pueden ser creadas "
+"por usted abajo. Para mas información de los códigos cortos ver  "
+"%4$sshortcode documentation%2$s."
+
+#: includes/admin/class-wp-resume-manager-setup.php:161
+msgid "Page Title"
+msgstr "Titulo de página"
+
+#: includes/admin/class-wp-resume-manager-setup.php:162
+msgid "Page Description"
+msgstr "Descripción página"
+
+#: includes/admin/class-wp-resume-manager-setup.php:163
+msgid "Content Shortcode"
+msgstr "Código corto del contenido"
+
+#: includes/admin/class-wp-resume-manager-setup.php:169
+msgctxt "Default page title (wizard)"
+msgid "Submit Resume"
+msgstr "Enviar CV"
+
+#: includes/admin/class-wp-resume-manager-setup.php:171
+msgid ""
+"This page allows candidates to post their resume to your website from the "
+"front-end."
+msgstr ""
+"Esta página permite a los candidatos enviar su hoja de vida a su sitio web "
+"desde el front-end."
+
+#: includes/admin/class-wp-resume-manager-setup.php:173
+msgid ""
+"If you do not want to accept submissions from users in this way (for example "
+"you just want to post resumes from the admin dashboard) you can skip "
+"creating this page."
+msgstr ""
+"Si usted no desea aceptar comunicaciones de los usuarios de esta manera (por "
+"ejemplo, lo que desea es enviar hojas de vida desde el tablero de "
+"instrumentos de administración) puede omitir la creación de esta página."
+
+#: includes/admin/class-wp-resume-manager-setup.php:179
+msgctxt "Default page title (wizard)"
+msgid "Candidate Dashboard"
+msgstr "Panel de Control de Candidato"
+
+#: includes/admin/class-wp-resume-manager-setup.php:181
+msgid ""
+"This page allows candidates to manage and edit their own resumes from the "
+"front-end."
+msgstr ""
+"Esta página permite a los candidatos gestionar y editar sus propias hojas de "
+"vida desde el front-end."
+
+#: includes/admin/class-wp-resume-manager-setup.php:183
+msgid ""
+"If you plan on managing all listings from the admin dashboard you can skip "
+"creating this page."
+msgstr ""
+"Si usted planea hacer toda la gestión desde el WP Admin,  puede omitir la "
+"creación de esta página."
+
+#: includes/admin/class-wp-resume-manager-setup.php:189
+msgctxt "Default page title (wizard)"
+msgid "Resumes"
+msgstr "Todos los Curriculum Viates"
+
+#: includes/admin/class-wp-resume-manager-setup.php:190
+msgid ""
+"This page allows users to browse, search, and filter resume listings on the "
+"front-end of your site."
+msgstr ""
+"Esta página permite a los usuarios navegar, buscar y filtrar los anuncios de "
+"curriculum vitae en el front-end de su sitio."
+
+#: includes/admin/class-wp-resume-manager-setup.php:198
+msgid "Skip this step"
+msgstr "Saltarse este paso"
+
+#: includes/admin/class-wp-resume-manager-setup.php:208
+msgid "All Done!"
+msgstr "Todo ya hecho"
+
+#: includes/admin/class-wp-resume-manager-setup.php:210
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+"Parece que ya está todo listo para empezar a usar el plugin. En caso de que "
+"usted se está preguntando dónde ir después:"
+
+#: includes/admin/class-wp-resume-manager-setup.php:213
+msgid "Tweak the plugin settings"
+msgstr "Ajustar la configuración del plugin"
+
+#: includes/admin/class-wp-resume-manager-setup.php:214
+msgid "Add a resume via the back-end"
+msgstr "Adicionar un CV en el back"
+
+#: includes/admin/class-wp-resume-manager-setup.php:217
+msgid "Add a resume via the front-end"
+msgstr "Adicionar un CV en el frente de la web"
+
+#: includes/admin/class-wp-resume-manager-setup.php:221
+msgid "View submitted job listings"
+msgstr "Ver los CV enviados"
+
+#: includes/admin/class-wp-resume-manager-setup.php:225
+msgid "View the candidate dashboard"
+msgstr "Ver el panel de control del candidato"
+
+#: includes/admin/class-wp-resume-manager-setup.php:229
+msgid ""
+"And don't forget, if you need any more help using <em>Resume Manager</em> "
+"you can consult the %1$sdocumentation%2$s or %3$scontact us via our support "
+"area%2$s!"
+msgstr ""
+"And don't forget, if you need any more help using <em>Resume Manager</em> "
+"you can consult the %1$sdocumentation%2$s or %3$scontact us via our support "
+"area%2$s!"
+
+#: includes/admin/class-wp-resume-manager-setup.php:232
+msgid "Support the Ongoing Development of WP Job Manager"
+msgstr "Support the Ongoing Development of WP Job Manager"
+
+#: includes/admin/class-wp-resume-manager-setup.php:233
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how "
+"awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how "
+"awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+
+#: includes/admin/class-wp-resume-manager-setup.php:235
+msgid "Leave a positive review"
+msgstr "Deje una reseña positiva"
+
+#: includes/admin/class-wp-resume-manager-setup.php:236
+msgid "Contribute a localization"
+msgstr "Contribuya con una localización"
+
+#: includes/admin/class-wp-resume-manager-setup.php:237
+msgid "Contribute code or report a bug"
+msgstr "Contribuya con un reporte de código o pulga"
+
+#: includes/admin/class-wp-resume-manager-setup.php:238
+msgid "Help other users on the forums"
+msgstr "Ayude a otros usando los foros"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:29
+msgid "Professional Title"
+msgstr "Título profesional"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:34
+msgid "Contact Email"
+msgstr "Email de contacto"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:35
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:142
+msgid "you@yourdomain.com"
+msgstr "su@sudominio.com"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:39
+msgid "Candidate Location"
+msgstr "Ubicación del Candidato"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:40
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:156
+msgid "e.g. \"London, UK\", \"New York\", \"Houston, TX\""
+msgstr "ejemplo San José, Peréz Zeledón, Cartago"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:44
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:160
+msgid "Photo"
+msgstr "Foto"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:45
+msgid "URL to the candidate photo"
+msgstr "URL de la foto del candidato"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:49
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:173
+msgid "Video"
+msgstr "Video"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:50
+msgid "URL to the candidate video"
+msgstr "URL del video del candidato"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:54
+msgid "Resume File"
+msgstr "Archivo del CV"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:55
+msgid "URL to the candidate's resume file"
+msgstr "URL del CV del candidato"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:59
+msgid "Posted by"
+msgstr "Publicado por"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:63
+msgid "Feature this Resume?"
+msgstr "¿CV destacado?"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:65
+msgid ""
+"Featured resumes will be sticky during searches, and can be styled "
+"differently."
+msgstr ""
+"Los CV destacados serán presentados ariba durante las búsquedas, y pueden "
+"ser de estilo diferente."
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:69
+msgid "yyyy-mm-dd"
+msgstr "año-mes-dia"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:84
+msgid "Candidate Data"
+msgstr "Datos del candidato"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:85
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:202
+msgid "URL(s)"
+msgstr "URL(s)"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:86
+#: includes/admin/class-wp-resume-manager-writepanels.php:298
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:226
+#: templates/content-single-resume.php:27
+msgid "Education"
+msgstr "Educación"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:87
+#: includes/admin/class-wp-resume-manager-writepanels.php:308
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:259
+#: templates/content-single-resume.php:46
+msgid "Experience"
+msgstr "Experiencia"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:138
+#: includes/class-wp-resume-manager-post-types.php:197
+msgid "Add %s"
+msgstr "Adicionar %s"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:195
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:210
+#: templates/candidate-dashboard.php:11
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:197
+msgid "Your site"
+msgstr "Su sitio"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:202
+#: includes/admin/class-wp-resume-manager-writepanels.php:288
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:217
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:218
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:233
+msgid "School name"
+msgstr "Nombre de la Universidad"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:225
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:239
+msgid "Qualification(s)"
+msgstr "Calificaciones / capacidades"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:231
+#: includes/admin/class-wp-resume-manager-writepanels.php:266
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:245
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:278
+msgid "Start/end date"
+msgstr "Fecha de inicio y finalización"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:237
+#: includes/admin/class-wp-resume-manager-writepanels.php:272
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:251
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:284
+msgid "Notes"
+msgstr "Notas"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:253
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:266
+msgid "Employer"
+msgstr "Empleador"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:260
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:272
+msgid "Job Title"
+msgstr "Nombre del Trabaho"
+
+#: includes/admin/class-wp-resume-manager-writepanels.php:286
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:206
+msgid ""
+"Optionally provide links to any of your websites or social network profiles."
+msgstr ""
+"Opcionalmente proporcione enlaces a cualquiera de sus sitios web o perfiles "
+"de redes sociales."
+
+#: includes/class-wp-resume-manager-ajax.php:67
+msgid "No resumes found matching your selection."
+msgstr "No hay CV correspondientes a su selección"
+
+#: includes/class-wp-resume-manager-ajax.php:93
+msgid "Showing &ldquo;%s&rdquo; %sresumes"
+msgstr "Mostrando &ldquo;%s&rdquo; %sresumes"
+
+#: includes/class-wp-resume-manager-ajax.php:95
+msgid "Showing all %sresumes"
+msgstr "Mostrando todos los  %sresumes"
+
+#: includes/class-wp-resume-manager-ajax.php:98
+msgid "located in &ldquo;%s&rdquo;"
+msgstr "Localizado en  &ldquo;%s&rdquo;"
+
+#: includes/class-wp-resume-manager-apply.php:51
+msgid "Submit your resume below to apply for the job \"%s\"."
+msgstr "Envíe su hoja de vida abajo para solicitar el trabajo  \"%s\"."
+
+#: includes/class-wp-resume-manager-apply.php:90
+msgid "Please choose a resume to apply with"
+msgstr "Seleccione un CV para aplicar"
+
+#: includes/class-wp-resume-manager-apply.php:95
+#: includes/class-wp-resume-manager-apply.php:107
+msgid "This job cannot be applied for using a resume"
+msgstr "No se puede aplicar a este trabajo con un CV"
+
+#: includes/class-wp-resume-manager-apply.php:100
+msgid "Please enter a message to include with your application"
+msgstr "Por favor entre un mensaje a incluir con su aplicación"
+
+#: includes/class-wp-resume-manager-apply.php:112
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:889
+msgid "Your application has been sent successfully"
+msgstr "Su aplicación a sido enviada con éxito"
+
+#: includes/class-wp-resume-manager-apply.php:114
+msgid "Error sending application"
+msgstr "Error al enviar la aplicación"
+
+#: includes/class-wp-resume-manager-apply.php:141
+#: templates/resume-submitted-notification.php:8
+msgid "Hello"
+msgstr "Hola"
+
+#: includes/class-wp-resume-manager-apply.php:142
+msgid "A candidate has applied online for the position \"%s\"."
+msgstr "Un candidato a aplicado en línea a la posición \"%s\"."
+
+#: includes/class-wp-resume-manager-apply.php:146
+msgid "You can view their online resume here: %s."
+msgstr "Usted puede enviar su CV en línea aquí: %s."
+
+#: includes/class-wp-resume-manager-apply.php:147
+msgid "Or you can contact them directly at: %s."
+msgstr "O puede contactarlos directamente en: %s."
+
+#: includes/class-wp-resume-manager-email-notification.php:29
+msgid "New Resume Submission From %s"
+msgstr "Nuevo envío de CV de %s"
+
+#: includes/class-wp-resume-manager-post-types.php:81
+msgid "Resume Category"
+msgstr "Categoría del CV"
+
+#: includes/class-wp-resume-manager-post-types.php:82
+msgid "Resume Categories"
+msgstr "Categorías de CV"
+
+#: includes/class-wp-resume-manager-post-types.php:86
+msgctxt "Resume category slug - resave permalinks after changing this"
+msgid "resume-category"
+msgstr "resume-category"
+
+#: includes/class-wp-resume-manager-post-types.php:103
+#: includes/class-wp-resume-manager-post-types.php:148
+#: includes/class-wp-resume-manager-post-types.php:203
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: includes/class-wp-resume-manager-post-types.php:104
+#: includes/class-wp-resume-manager-post-types.php:149
+#: includes/class-wp-resume-manager-post-types.php:195
+msgid "All %s"
+msgstr "Todos  %s"
+
+#: includes/class-wp-resume-manager-post-types.php:105
+#: includes/class-wp-resume-manager-post-types.php:150
+#: includes/class-wp-resume-manager-post-types.php:206
+msgid "Parent %s"
+msgstr "Superior %s"
+
+#: includes/class-wp-resume-manager-post-types.php:106
+#: includes/class-wp-resume-manager-post-types.php:151
+msgid "Parent %s:"
+msgstr "Superiores %s:"
+
+#: includes/class-wp-resume-manager-post-types.php:107
+#: includes/class-wp-resume-manager-post-types.php:152
+#: includes/class-wp-resume-manager-post-types.php:199
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: includes/class-wp-resume-manager-post-types.php:108
+#: includes/class-wp-resume-manager-post-types.php:153
+msgid "Update %s"
+msgstr "Actualizar %s"
+
+#: includes/class-wp-resume-manager-post-types.php:109
+#: includes/class-wp-resume-manager-post-types.php:154
+msgid "Add New %s"
+msgstr "Adicionar nuevo %s"
+
+#: includes/class-wp-resume-manager-post-types.php:110
+#: includes/class-wp-resume-manager-post-types.php:155
+msgid "New %s Name"
+msgstr "Nuevo %s Nombre"
+
+#: includes/class-wp-resume-manager-post-types.php:126
+msgid "Candidate Skill"
+msgstr "Habilidad del candidato"
+
+#: includes/class-wp-resume-manager-post-types.php:127
+msgid "Candidate Skills"
+msgstr "Habilidades del candidato"
+
+#: includes/class-wp-resume-manager-post-types.php:131
+msgctxt "Resume skill slug - resave permalinks after changing this"
+msgid "resume-skill"
+msgstr "resume-skill"
+
+#: includes/class-wp-resume-manager-post-types.php:173
+msgid "Resume"
+msgstr "CV"
+
+#: includes/class-wp-resume-manager-post-types.php:174
+#: includes/class-wp-resume-manager-post-types.php:402
+msgid "Resumes"
+msgstr "CVs"
+
+#: includes/class-wp-resume-manager-post-types.php:177
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "resumes"
+msgstr "resumes"
+
+#: includes/class-wp-resume-manager-post-types.php:183
+msgctxt "Resume permalink - resave permalinks after changing this"
+msgid "resume"
+msgstr "resume"
+
+#: includes/class-wp-resume-manager-post-types.php:196
+msgid "Add New"
+msgstr "Adicionar Nuevo"
+
+#: includes/class-wp-resume-manager-post-types.php:200
+msgid "New %s"
+msgstr "Nuevo %s"
+
+#: includes/class-wp-resume-manager-post-types.php:201
+#: includes/class-wp-resume-manager-post-types.php:202
+msgid "View %s"
+msgstr "Ver %s"
+
+#: includes/class-wp-resume-manager-post-types.php:204
+msgid "No %s found"
+msgstr "No %s encontrado"
+
+#: includes/class-wp-resume-manager-post-types.php:205
+msgid "No %s found in trash"
+msgstr "No %s encontrados en la papelera"
+
+#: includes/class-wp-resume-manager-post-types.php:208
+msgid "This is where you can create and manage user resumes."
+msgstr ""
+"Aquí es donde usted puede crear y administrar hojas de vida de los usuarios."
+
+#: includes/class-wp-resume-manager-post-types.php:235
+#: includes/wp-resume-manager-functions.php:352
+msgctxt "post status"
+msgid "Hidden"
+msgstr "Oculto"
+
+#: includes/class-wp-resume-manager-post-types.php:240
+msgid "Hidden <span class=\"count\">(%s)</span>"
+msgid_plural "Hidden <span class=\"count\">(%s)</span>"
+msgstr[0] "Oculto <span class=\"count\">(%s)</span>"
+msgstr[1] "Ocultos <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-resume-manager-post-types.php:351
+msgid "File not found"
+msgstr "Archivo no encontrado"
+
+#: includes/class-wp-resume-manager-post-types.php:351
+msgid "Go to homepage"
+msgstr "Ir a página de inicio"
+
+#: includes/class-wp-resume-manager-post-types.php:447
+msgid "Contact via the resume for \"%s\" on %s"
+msgstr "Contactar por medio del CV \"%s\" en %s"
+
+#: includes/class-wp-resume-manager-shortcodes.php:76
+msgid "Invalid Resume ID"
+msgstr "ID del CV no valido"
+
+#: includes/class-wp-resume-manager-shortcodes.php:84
+msgid "%s has been deleted"
+msgstr "%s ha sido eliminado"
+
+#: includes/class-wp-resume-manager-shortcodes.php:91
+msgid "%s has been hidden"
+msgstr "%s ha sido ocultado"
+
+#: includes/class-wp-resume-manager-shortcodes.php:98
+msgid "%s has been published"
+msgstr "%s ha sido publicado"
+
+#: includes/class-wp-resume-manager-shortcodes.php:235
+#: includes/class-wp-resume-manager-shortcodes.php:265
+msgid "Load more resumes"
+msgstr "Cargar mas CV"
+
+#: includes/class-wp-resume-manager-widgets.php:23
+msgid ""
+"Display a list of recent listings on your site, optionally matching a "
+"keyword and location."
+msgstr ""
+"Mostrar una lista de los últimos anuncios en su sitio, opcionalmente "
+"coincidiendo con una palabra clave y ubicación."
+
+#: includes/class-wp-resume-manager-widgets.php:25
+#: includes/class-wp-resume-manager-widgets.php:29
+msgid "Recent %s"
+msgstr "Reciente %s"
+
+#: includes/class-wp-resume-manager-widgets.php:30
+#: includes/class-wp-resume-manager-widgets.php:138
+#: templates/candidate-dashboard.php:12
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wp-resume-manager-widgets.php:35
+msgid "Keyword"
+msgstr "Palabras clave"
+
+#: includes/class-wp-resume-manager-widgets.php:48
+#: includes/class-wp-resume-manager-widgets.php:146
+msgid "Number of listings to show"
+msgstr "Cantidad de listados a mostrar"
+
+#: includes/class-wp-resume-manager-widgets.php:131
+msgid "Display a list of featured listings on your site."
+msgstr "Mostrar una lista de anuncios destacados en su sitio."
+
+#: includes/class-wp-resume-manager-widgets.php:133
+#: includes/class-wp-resume-manager-widgets.php:137
+msgid "Featured %s"
+msgstr "Destacados %s"
+
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:53
+msgid "Invalid resume"
+msgstr "CV no valido"
+
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:91
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:119
+msgid "Your changes have been saved."
+msgstr "Sus cambios han sido guardados"
+
+#: includes/forms/class-wp-resume-manager-form-edit-resume.php:119
+msgid "View Resume &rarr;"
+msgstr "Ver CV &rarr;"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:36
+msgid "Submit Details"
+msgstr "Enviar detalles"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:42
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:774
+msgid "Preview"
+msgstr "Vista previa"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:48
+msgid "Done"
+msgstr "Hecho"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:54
+msgid "Application"
+msgstr "Aplicación"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:126
+msgid "Maximum of %d."
+msgstr "Máximo de %d."
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:132
+msgid "Your name"
+msgstr "Su nombre"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:135
+msgid "Your full name"
+msgstr "Su nombre completo"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:139
+msgid "Your email"
+msgstr "Su Email"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:146
+msgid "Professional title"
+msgstr "Título profesional"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:149
+msgid "e.g. \"Web Developer\""
+msgstr "ejemplo: \"Vendedor seguros\""
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:177
+msgid "A link to a video about yourself"
+msgstr "Enlace a un video acerca de usted"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:180
+msgid "Resume category"
+msgstr "Categoría de CV"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:188
+msgid "Resume Content"
+msgstr "Contenido del CV"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:198
+msgid "Comma separate a list of relevant skills"
+msgstr "Lista de habilidades relevantes, separada con comas"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:292
+msgid "Resume file"
+msgstr "Archivo del CV"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:296
+msgid ""
+"Optionally upload your resume for employers to view. Max. file size: %s."
+msgstr ""
+"Opcionalmente subir su curriculum vitae para que los empleadores lo vean. "
+"Max. tamaño de archivo: %s."
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:403
+msgid "%s is a required field"
+msgstr "%s es un campo requerido"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:409
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:414
+msgid "%s is invalid"
+msgstr "%s no es valido"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:427
+msgid "Please enter no more than %d skills."
+msgstr "Por favor no entre mas de  %d habilidades."
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:499
+msgid "Preview &rarr;"
+msgstr "Vista previa &rarr;"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:529
+msgid "Please enter a username."
+msgstr "Por favor entrar nombre de usuario"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:532
+msgid "Please enter your email address."
+msgstr "Por favor entre su email"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:554
+msgid "You must be signed in to post your resume."
+msgstr "Debe ingresar para poder subir su CV"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:767
+msgid "Submit Resume &rarr;"
+msgstr "Enviar CV &rarr;"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:768
+msgid "&larr; Edit resume"
+msgstr "&larr; Editar CV"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:840
+msgid ""
+"Enter a message below to apply to \"%s\". This will accompany your online "
+"resume and be sent to the employer."
+msgstr ""
+"Introduzca un mensaje para aplicar a \"% s\". Este acompañará su currículum "
+"en línea y será enviado al empleador."
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:842
+#: templates/apply-with-resume.php:22
+msgid "Message"
+msgstr "Mensaje"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:846
+#: templates/apply-with-resume.php:36
+msgid "Send application"
+msgstr "Enviar aplicación"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:872
+msgid "Please enter a message"
+msgstr "Por favor digite su mensaje"
+
+#: includes/forms/class-wp-resume-manager-form-submit-resume.php:879
+msgid "Error sending application."
+msgstr "Error enviando la aplicación"
+
+#: includes/updater/views/html-key-input.php:4
+msgid "Licence"
+msgstr "Licensia"
+
+#: includes/updater/views/html-key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"Introduzca su clave de licencia y el correo electrónico y pulse Enter. Se "
+"requiere una clave válida para las actualizaciones automáticas."
+
+#: includes/updater/views/html-key-notice.php:2
+msgid "Hide notice"
+msgstr "Ocultar notificación"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: includes/wp-resume-manager-functions.php:214
+msgid "Reset"
+msgstr "Resetear"
+
+#: includes/wp-resume-manager-functions.php:350
+msgctxt "post status"
+msgid "Draft"
+msgstr "Borrador"
+
+#: includes/wp-resume-manager-functions.php:351
+msgctxt "post status"
+msgid "Expired"
+msgstr "Vencidos"
+
+#: includes/wp-resume-manager-functions.php:353
+msgctxt "post status"
+msgid "Preview"
+msgstr "Vista previa"
+
+#: includes/wp-resume-manager-functions.php:354
+msgctxt "post status"
+msgid "Pending approval"
+msgstr "Aprobación pendiente"
+
+#: includes/wp-resume-manager-functions.php:355
+msgctxt "post status"
+msgid "Pending payment"
+msgstr "Pago pendiente"
+
+#: includes/wp-resume-manager-functions.php:356
+msgctxt "post status"
+msgid "Published"
+msgstr "Publicado"
+
+#: includes/wp-resume-manager-template.php:170
+msgid "Published"
+msgstr "Publicado"
+
+#: includes/wp-resume-manager-template.php:172
+msgid "Expired"
+msgstr "Vencido"
+
+#: includes/wp-resume-manager-template.php:174
+msgid "Pending Review"
+msgstr "Revisión pendiente"
+
+#: includes/wp-resume-manager-template.php:176
+msgid "Hidden"
+msgstr "Oculto"
+
+#: includes/wp-resume-manager-template.php:178
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: templates/access-denied-browse-resumes.php:1
+msgid "Sorry, you do not have permission to browse resumes."
+msgstr "Lo sentimos no tiene permisos para navegar en los CVs"
+
+#: templates/access-denied-single-resume.php:2
+msgid "This listing has expired"
+msgstr "El listado ha vencido"
+
+#: templates/access-denied-single-resume.php:4
+msgid "Sorry, you do not have permission to view this resume."
+msgstr "Lo sentimos, no tiene permiso para ver este CV"
+
+#: templates/account-signin.php:4
+msgid "Your account"
+msgstr "Su cuenta"
+
+#: templates/account-signin.php:8
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "Usted ha ingresado como  <strong>%s</strong>."
+
+#: templates/account-signin.php:11
+msgid "Sign out"
+msgstr "Salir del sistema"
+
+#: templates/account-signin.php:22
+msgid "Have an account?"
+msgstr "¿Tiene una cuenta?"
+
+#: templates/account-signin.php:24 templates/candidate-dashboard-login.php:3
+msgid "Sign in"
+msgstr "Ingresar"
+
+#: templates/account-signin.php:28
+msgid ""
+"If you don&rsquo;t have an account you can create one below by entering your "
+"email address. A password will be automatically emailed to you."
+msgstr ""
+"Si usted no tiene una cuenta puede crear una continuación, introduzca su "
+"dirección de correo electrónico. Una contraseña será enviada automáticamente "
+"a usted."
+
+#: templates/account-signin.php:32
+msgid "You must sign in to submit a resume."
+msgstr "Debe ingresar para enviar un CV"
+
+#: templates/account-signin.php:40
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: templates/account-signin.php:40 templates/form-fields/education-field.php:7
+#: templates/form-fields/education-field.php:30
+#: templates/form-fields/experience-field.php:7
+#: templates/form-fields/experience-field.php:30
+#: templates/form-fields/links-field.php:7
+#: templates/form-fields/links-field.php:30
+#: templates/form-fields/repeated-field.php:7
+#: templates/form-fields/repeated-field.php:27 templates/resume-submit.php:32
+msgid "(optional)"
+msgstr "(opcional)"
+
+#: templates/apply-with-resume.php:9
+msgid ""
+"Apply using your online resume; just enter a short message and choose one of "
+"your resumes to email your application."
+msgstr ""
+"Aplicar con su currículum en línea; Introduce un mensaje corto y elegir una "
+"de sus hojas de vida al correo electrónico su solicitud."
+
+#: templates/apply-with-resume.php:11
+msgid "Online resume"
+msgstr "CV en linea"
+
+#: templates/apply-with-resume.php:13
+msgid "Choose a resume..."
+msgstr "Seleccione un CV"
+
+#: templates/apply-with-resume.php:27
+msgctxt "default cover letter"
+msgid "To whom it may concern,"
+msgstr "A quien pueda interesar,"
+
+#: templates/apply-with-resume.php:29
+msgctxt "default cover letter"
+msgid ""
+"I am very interested in the %s position at %s. I believe my skills and work "
+"experience make me an ideal candidate for this role. I look forward to "
+"speaking with you soon about this position."
+msgstr ""
+"Estoy muy interesado en la  %s posición en %s.  Creo que mis habilidades y "
+"experiencia laboral me hacen un candidato ideal para este papel. Espero "
+"poder hablar con usted pronto acerca de esta posición."
+
+#: templates/apply-with-resume.php:31
+msgctxt "default cover letter"
+msgid "Thank you for your consideration."
+msgstr "Gracias por su consideración"
+
+#: templates/apply-with-resume.php:42
+msgid ""
+"You can apply to this job and others using your online resume. Click the "
+"link below to submit your online resume and email your application to this "
+"employer."
+msgstr ""
+"Se puede aplicar a este trabajo y otros utilizando su currículum en línea. "
+"Haga clic en el enlace de abajo para enviar su currículum en línea y por "
+"correo electrónico su solicitud a este empleador."
+
+#: templates/apply-with-resume.php:45
+msgid "Submit resume and apply"
+msgstr "Enviar CV y aplicar"
+
+#: templates/candidate-dashboard-login.php:3
+msgid "You need to be signed in to manage your resumes."
+msgstr "Tienes que iniciar sesión para administrar sus hojas de vida."
+
+#: templates/candidate-dashboard.php:7
+msgid "Your resume can be viewed, edited or removed below."
+msgid_plural "Your resume(s) can be viewed, edited or removed below."
+msgstr[0] "Su CV puede ser visto, editado o removido abajo"
+msgstr[1] "Su CVs pueden ser vistos, editados o removidos abajo"
+
+#: templates/candidate-dashboard.php:15 templates/resume-filters.php:23
+msgid "Category"
+msgstr "Categoría"
+
+#: templates/candidate-dashboard.php:23
+msgid "You do not have any active resume listings."
+msgstr "Usted no tiene CV activos listados"
+
+#: templates/candidate-dashboard.php:37
+msgid "Hide"
+msgstr "Oculatar"
+
+#: templates/candidate-dashboard.php:41
+msgid "Publish"
+msgstr "Publicar"
+
+#: templates/candidate-dashboard.php:45
+msgid "Relist"
+msgstr "Re listar"
+
+#: templates/candidate-dashboard.php:72
+msgid "Expires %s"
+msgstr "Vence %s"
+
+#: templates/candidate-dashboard.php:86
+msgid "Add Resume"
+msgstr "Adicionar CV"
+
+#: templates/contact-details-email.php:1
+msgid ""
+"To contact this candidate email <a class=\"job_application_email\" href="
+"\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr ""
+"Para contactar a este candidato enviar email a  <a class="
+"\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+
+#: templates/contact-details-email.php:4
+msgid "Contact using webmail: "
+msgstr "Contacto usando webmail:"
+
+#: templates/contact-details.php:12
+msgid "Contact"
+msgstr "Contacto"
+
+#: templates/content-no-resumes-found.php:2
+msgid "There are no listings matching your search."
+msgstr "No hay listados que coincidan con su búsqueda"
+
+#: templates/content-no-resumes-found.php:4
+msgid "There are currently no resumes."
+msgstr "No hay CVs"
+
+#: templates/content-resume.php:15
+msgid "%s ago"
+msgstr "hace %s"
+
+#: templates/content-single-resume.php:34
+#: templates/content-single-resume.php:53
+msgid "%s at %s"
+msgstr "%s en %s"
+
+#: templates/content-single-resume.php:71
+msgid "Updated %s ago"
+msgstr "Actualizado hace %s"
+
+#: templates/form-fields/education-field.php:4
+#: templates/form-fields/education-field.php:27
+#: templates/form-fields/experience-field.php:4
+#: templates/form-fields/experience-field.php:27
+#: templates/form-fields/links-field.php:4
+#: templates/form-fields/links-field.php:27
+#: templates/form-fields/repeated-field.php:4
+#: templates/form-fields/repeated-field.php:24
+msgid "Remove"
+msgstr "Remover"
+
+#: templates/form-fields/education-field.php:44
+msgid "Add Education"
+msgstr "Adicionar educación"
+
+#: templates/form-fields/experience-field.php:44
+msgid "Add Experience"
+msgstr "Adicionar Experiencia"
+
+#: templates/form-fields/links-field.php:44
+msgid "Add URL"
+msgstr "Adicionar URL"
+
+#: templates/form-fields/repeated-field.php:36
+msgid "Add"
+msgstr "Addicionar"
+
+#: templates/linkedin-import.php:6
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: templates/linkedin-import.php:8
+msgid "Import from LinkedIn"
+msgstr "Importat desde Linkedin"
+
+#: templates/resume-filters.php:8
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: templates/resume-filters.php:9
+msgid "All Resumes"
+msgstr "Todos los CVs"
+
+#: templates/resume-filters.php:14
+msgid "Any Location"
+msgstr "Cualquier ubicación"
+
+#: templates/resume-filters.php:27
+msgid "Any category"
+msgstr "Cualquier categoría"
+
+#: templates/resume-submitted-notification.php:9
+msgid ""
+"A new resume has just been submitted by *%s*. The details of their resume "
+"are as follows:"
+msgstr ""
+"Una nueva hoja de vida acaba de ser presentada por  *%s*. Los detalles de su "
+"hoja de vida son los siguientes:"
+
+#: templates/resume-submitted-notification.php:22
+msgid "The content of their resume is as follows:"
+msgstr "El contenido del CV es el siguiente:"
+
+#: templates/resume-submitted-notification.php:27
+msgid "Links:"
+msgstr "Enlaces:"
+
+#: templates/resume-submitted-notification.php:36
+msgid "Education:"
+msgstr "Educación:"
+
+#: templates/resume-submitted-notification.php:38
+msgid "Location: %s"
+msgstr "Localización: %s"
+
+#: templates/resume-submitted-notification.php:39
+#: templates/resume-submitted-notification.php:51
+msgid "Date: %s"
+msgstr "Fecha: %s"
+
+#: templates/resume-submitted-notification.php:40
+msgid "Qualification: %s"
+msgstr "Calificaciones: %s"
+
+#: templates/resume-submitted-notification.php:48
+msgid "Experience:"
+msgstr "Experiencia:"
+
+#: templates/resume-submitted-notification.php:50
+msgid "Employer: %s"
+msgstr "Empleador: %s"
+
+#: templates/resume-submitted-notification.php:52
+msgid "Job Title: %s"
+msgstr "Nombre de la vacante: %s"
+
+#: templates/resume-submitted-notification.php:58
+msgid "You can view this resume here: %s"
+msgstr "Puede ver este CV aquí: %s"
+
+#: templates/resume-submitted-notification.php:59
+msgid "You can view/edit this resume in the backend by clicking here: %s"
+msgstr "Puede ver / editar este CV en el back dando clic aquí: %s"
+
+#: templates/resume-submitted.php:5
+msgid ""
+"Resume submitted successfully. To view your resume <a href=\"%s\">click "
+"here</a>."
+msgstr "CV enviado con éxito. Para ver su CV <a href=\"%s\">dé clic aquí</a>."
+
+#: templates/resume-submitted.php:7
+msgid "Resume submitted successfully."
+msgstr "CV enviado con éxito"
+
+#: templates/resume-submitted.php:11
+msgid ""
+"Resume submitted successfully. Your resume will be visible once approved."
+msgstr "CV enviado con éxito. Su currículum será visible una vez aprobado."
+
+#: wp-job-manager-resumes.php:85
+msgid "Resume Manager requires WP Job Manager to be installed!"
+msgstr "Resume Manager requiere que WP Job Manager este instalado"
+
+#: wp-job-manager-resumes.php:87
+msgid "Resume Manager requires WP Job Manager %s (you are using %s)"
+msgstr "Resume Manager requiere WP Job Manager  %s (está usando %s)"
+
+#: wp-job-manager-resumes.php:154
+msgid ""
+"If you wish to edit the posted details use the \"edit resume\" button "
+"instead, otherwise changes may be lost."
+msgstr ""
+"Si desea editar los detalles enviados utilice el botón \"Editar CV\" , de lo "
+"contrario los cambios pueden perderse."
+
+#: wp-job-manager-resumes.php:155
+msgid "Are you sure you want to remove this item?"
+msgstr "¿Esta seguro que desea remover este ítem?"
+
+#: wp-job-manager-resumes.php:156
+msgid "remove"
+msgstr "remover"
+
+#: wp-job-manager-resumes.php:162
+msgid "Are you sure you want to delete this resume?"
+msgstr "¿Esta seguro que desea remover este CV?"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Resume Manager"
+msgstr "WP Job Manager - Resume Manager"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/resume-manager/"
+msgstr "https://wpjobmanager.com/add-ons/resume-manager/"
+
+#. Description of the plugin/theme
+msgid ""
+"Manage canidate resumes from the WordPress admin panel, and allow candidates "
+"to post their resumes directly to your site."
+msgstr ""
+"Administrar los CV de los candidatos desde el panel de administración de "
+"WordPress, y permitir a los  candidatos publicar sus hojas de vida "
+"directamente en su sitio."
+
+#. Author of the plugin/theme
+msgid "WP Job Manager Team"
+msgstr "Equipo de WP Job Manager"
+
+#. Author URI of the plugin/theme
+msgid "https://wpjobmanager.com"
+msgstr "https://wpjobmanager.com"
