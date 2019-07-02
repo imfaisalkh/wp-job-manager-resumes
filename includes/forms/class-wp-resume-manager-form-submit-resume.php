@@ -337,6 +337,14 @@ class WP_Resume_Manager_Form_Submit_Resume extends WP_Job_Manager_Form {
 	}
 
 	/**
+	 * Reset the `fields` variable so it gets reinitialized. This should only be
+	 * used for testing!
+	 */
+	public function reset_fields() {
+		$this->fields = null;
+	}
+
+	/**
 	 * Get the value of a repeated fields (e.g. education, links)
 	 * @param  array $fields
 	 * @return array
@@ -481,6 +489,25 @@ class WP_Resume_Manager_Form_Submit_Resume extends WP_Job_Manager_Form {
 						return new WP_Error( 'validation-error', sprintf( __( 'Please enter no more than %d skills.', 'wp-job-manager-resumes' ), $max ) );
 					}
 				}
+
+				if ( 'file' === $field['type'] ) {
+					if ( is_array( $values[ $group_key ][ $key ] ) ) {
+						$check_value = array_filter( $values[ $group_key ][ $key ] );
+					} else {
+						$check_value = array_filter( array( $values[ $group_key ][ $key ] ) );
+					}
+					if ( ! empty( $check_value ) ) {
+						foreach ( $check_value as $file_url ) {
+							if ( is_numeric( $file_url ) ) {
+								continue;
+							}
+							$file_url = esc_url( $file_url, array( 'http', 'https' ) );
+							if ( empty( $file_url ) ) {
+								throw new Exception( __( 'Invalid attachment provided.', 'wp-job-manager' ) );
+							}
+						}
+					}
+				}
 			}
 		}
 
@@ -594,18 +621,39 @@ class WP_Resume_Manager_Form_Submit_Resume extends WP_Job_Manager_Form {
 						if ( ! resume_manager_generate_username_from_email() && empty( $_POST['create_account_username'] ) ) {
 							throw new Exception( __( 'Please enter a username.', 'wp-job-manager-resumes' ) );
 						}
+						if ( ! resume_manager_use_standard_password_setup_email() ) {
+							if ( empty( $_POST['create_account_password'] ) ) {
+								throw new Exception( __( 'Please enter a password.', 'wp-job-manager-resumes' ) );
+							}
+						}
 						if ( empty( $_POST['candidate_email'] ) ) {
 							throw new Exception( __( 'Please enter your email address.', 'wp-job-manager-resumes' ) );
 						}
 					}
+
+					if ( ! resume_manager_use_standard_password_setup_email() && ! empty( $_POST['create_account_password'] ) ) {
+						if ( empty( $_POST['create_account_password_verify'] ) || $_POST['create_account_password_verify'] !== $_POST['create_account_password'] ) {
+							throw new Exception( __( 'Passwords must match.', 'wp-job-manager-resumes' ) );
+						}
+						if ( ! wpjm_validate_new_password( $_POST['create_account_password'] ) ) {
+							$password_hint = wpjm_get_password_rules_hint();
+							if ( $password_hint ) {
+								throw new Exception( sprintf( __( 'Invalid Password: %s', 'wp-job-manager-resumes' ), $password_hint ) );
+							} else {
+								throw new Exception( __( 'Password is not valid.', 'wp-job-manager-resumes' ) );
+							}
+						}
+					}
+
 					if ( ! empty( $_POST['candidate_email'] ) ) {
 						if ( version_compare( JOB_MANAGER_VERSION, '1.20.0', '<' ) ) {
 							$create_account = wp_job_manager_create_account( $_POST['candidate_email'], get_option( 'resume_manager_registration_role', 'candidate' ) );
 						} else {
 							$create_account = wp_job_manager_create_account( array(
-								'username' => empty( $_POST['create_account_username'] ) ? '' : $_POST['create_account_username'],
+								'username' => ( resume_manager_generate_username_from_email() || empty( $_POST['create_account_username'] ) ) ? '' : $_POST['create_account_username'],
+								'password' => ( resume_manager_use_standard_password_setup_email() || empty( $_POST['create_account_password'] ) ) ? '' : $_POST['create_account_password'],
 								'email'    => $_POST['candidate_email'],
-								'role'     => get_option( 'resume_manager_registration_role', 'candidate' )
+								'role'     => get_option( 'resume_manager_registration_role', 'candidate' ),
 							) );
 						}
 					}
@@ -782,7 +830,7 @@ class WP_Resume_Manager_Form_Submit_Resume extends WP_Job_Manager_Form {
 		}
 
 		// Handle attachments
-		if ( sizeof( $maybe_attach ) && apply_filters( 'resume_manager_attach_uploaded_files', false ) ) {
+		if ( sizeof( $maybe_attach ) && resume_manager_attach_uploaded_files() ) {
 			/** WordPress Administration Image API */
 			include_once( ABSPATH . 'wp-admin/includes/image.php' );
 
@@ -796,6 +844,12 @@ class WP_Resume_Manager_Form_Submit_Resume extends WP_Job_Manager_Form {
 			}
 
 			foreach ( $maybe_attach as $attachment_url ) {
+				$attachment_url = esc_url( $attachment_url, array( 'http', 'https' ) );
+
+				if ( empty( $attachment_url ) ) {
+					continue;
+				}
+
 				if ( ! in_array( $attachment_url, $attachment_urls ) ) {
 					$attachment = array(
 						'post_title'   => get_the_title( $this->resume_id ),

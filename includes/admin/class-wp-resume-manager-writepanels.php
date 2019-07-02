@@ -106,6 +106,16 @@ class WP_Resume_Manager_Writepanels extends WP_Job_Manager_Writepanels {
 		foreach ( $this->resume_fields() as $key => $field ) {
 			$type = ! empty( $field['type'] ) ? $field['type'] : 'text';
 
+			if ( ! isset( $field['value'] ) && metadata_exists( 'post', $thepostid, $key ) ) {
+				$field['value'] = get_post_meta( $thepostid, $key, true );
+			}
+
+			if ( ! isset( $field['value'] ) && isset( $field['default'] ) ) {
+				$field['value'] = $field['default'];
+			} elseif ( ! isset( $field['value'] ) ) {
+				$field['value'] = '';
+			}
+
 			if( has_action( 'resume_manager_input_' . $type ) ) {
 				do_action( 'resume_manager_input_' . $type, $key, $field );
 			} elseif( method_exists( $this, 'input_' . $type ) ) {

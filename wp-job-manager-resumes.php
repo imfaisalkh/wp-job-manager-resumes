@@ -3,15 +3,15 @@
  * Plugin Name: WP Job Manager - Resume Manager
  * Plugin URI: https://wpjobmanager.com/add-ons/resume-manager/
  * Description: Manage candidate resumes from the WordPress admin panel, and allow candidates to post their resumes directly to your site.
- * Version: 1.17.0
+ * Version: 1.17.3
  * Author: Automattic
  * Author URI: https://wpjobmanager.com
- * Requires at least: 4.1
- * Tested up to: 4.9
+ * Requires at least: 4.7
+ * Tested up to: 5.2
  *
  * WPJM-Product: wp-job-manager-resumes
  *
- * Copyright: 2018 Automattic
+ * Copyright: 2019 Automattic
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -34,7 +34,7 @@ class WP_Resume_Manager {
 	 */
 	public function __construct() {
 		// Define constants.
-		define( 'RESUME_MANAGER_VERSION', '1.17.0' );
+		define( 'RESUME_MANAGER_VERSION', '1.17.3' );
 		define( 'RESUME_MANAGER_PLUGIN_DIR', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 		define( 'RESUME_MANAGER_PLUGIN_URL', untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) ) );
 
@@ -78,11 +78,13 @@ class WP_Resume_Manager {
 		include_once dirname( __FILE__ ) . '/includes/class-wp-resume-manager-apply.php';
 		include_once dirname( __FILE__ ) . '/includes/class-wp-resume-manager-resume-lifecycle.php';
 		include_once dirname( __FILE__ ) . '/includes/class-wp-resume-manager-privacy.php';
+		include_once dirname( __FILE__ ) . '/includes/class-wp-resume-manager-file-cleaner.php';
 
 		// Init classes.
 		$this->apply = new WP_Resume_Manager_Apply();
 		$this->forms = new WP_Resume_Manager_Forms();
 		WP_Resume_Manager_Privacy::init();
+		WP_Resume_Manager_File_Cleaner::init();
 
 		// Initialize post types.
 		$this->post_types->init_post_types();
@@ -91,8 +93,11 @@ class WP_Resume_Manager {
 		add_action( 'widgets_init', array( $this, 'widgets_init' ), 12 );
 		add_action( 'switch_theme', array( $this->post_types, 'register_post_types' ), 10 );
 		add_action( 'switch_theme', 'flush_rewrite_rules', 15 );
-		add_action( 'wp_enqueue_scripts', array( $this, 'frontend_scripts' ) );
 		add_action( 'admin_init', array( $this, 'updater' ) );
+
+		add_filter( 'job_manager_enhanced_select_enabled', array( $this, 'is_enhanced_select_required_on_page' ) );
+		add_filter( 'job_manager_enqueue_frontend_style', array( $this, 'is_frontend_style_required_on_page' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'frontend_scripts' ) );
 	}
 
 	/**
@@ -177,6 +182,35 @@ class WP_Resume_Manager {
 		load_plugin_textdomain( 'wp-job-manager-resumes', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
 
+
+	/**
+	 * Filters if enhanced select is needed on this page.
+	 *
+	 * @param bool $enhanced_select_used_on_page
+	 *
+	 * @return bool
+	 */
+	public function is_enhanced_select_required_on_page( $enhanced_select_used_on_page ) {
+		$enhanced_select_shortcodes = array( 'submit_resume_form', 'resumes', 'candidate_dashboard' );
+		if ( $enhanced_select_used_on_page || has_wp_resume_manager_shortcode( null, $enhanced_select_shortcodes ) ) {
+			return true;
+		}
+		return $enhanced_select_used_on_page;
+	}
+
+	/**
+	 * Filters if WPJM's frontend styles is need on this page.
+	 *
+	 * @param bool $is_frontend_style_enabled
+	 * @return bool
+	 */
+	public function is_frontend_style_required_on_page( $is_frontend_style_enabled ) {
+		if ( $is_frontend_style_enabled || is_wp_resume_manager() ) {
+			return true;
+		}
+		return $is_frontend_style_enabled;
+	}
+
 	/**
 	 * Frontend_scripts function.
 	 *
@@ -193,7 +227,11 @@ class WP_Resume_Manager {
 			$ajax_url = add_query_arg( 'lang', ICL_LANGUAGE_CODE, $ajax_url );
 		}
 
-		if ( apply_filters( 'job_manager_chosen_enabled', true ) ) {
+		if ( wp_script_is( 'select2', 'registered' ) ) {
+			$ajax_filter_deps[] = 'select2';
+			wp_enqueue_style( 'select2' );
+		} elseif ( wp_script_is( 'chosen', 'registered' ) && apply_filters( 'job_manager_chosen_enabled', true ) ) {
+			// Support for themes and plugins not using WP Job Manager 1.32.0's select2 support.
 			$ajax_filter_deps[] = 'chosen';
 		}
 
@@ -212,6 +250,7 @@ class WP_Resume_Manager {
 		wp_localize_script(
 			'wp-resume-manager-ajax-filters', 'resume_manager_ajax_filters', array(
 				'ajax_url' => $ajax_url,
+				'is_rtl'   => is_rtl() ? 1 : 0,
 			)
 		);
 		wp_localize_script(

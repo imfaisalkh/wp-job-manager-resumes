@@ -33,7 +33,7 @@ if ( is_user_logged_in() ) : ?>
 
 	$account_required             = resume_manager_user_requires_account();
 	$registration_enabled         = resume_manager_enable_registration();
-	$generate_username_from_email = resume_manager_generate_username_from_email();
+	$registration_fields          = resume_manager_get_registration_fields();
 	?>
 	<fieldset>
 		<label><?php _e( 'Have an account?', 'wp-job-manager-resumes' ); ?></label>
@@ -51,16 +51,21 @@ if ( is_user_logged_in() ) : ?>
 			<?php endif; ?>
 		</div>
 	</fieldset>
-	<?php if ( $registration_enabled ) : ?>
-		<?php if ( ! $generate_username_from_email ) : ?>
-			<fieldset>
-				<label><?php _e( 'Username', 'wp-job-manager-resumes' ); ?> <?php echo apply_filters( 'submit_resume_form_required_label', ( ! $account_required ) ? ' <small>' . __( '(optional)', 'wp-job-manager' ) . '</small>' : '' ); ?></label>
-				<div class="field">
-					<input type="text" class="input-text" name="create_account_username" id="account_username" value="<?php if ( ! empty( $_POST['create_account_username'] ) ) echo sanitize_text_field( stripslashes( $_POST['create_account_username'] ) ); ?>" />
+	<?php
+	if ( ! empty( $registration_fields ) ) {
+		foreach ( $registration_fields as $key => $field ) {
+			?>
+			<fieldset class="fieldset-<?php echo esc_attr( $key ); ?>">
+				<label
+					for="<?php echo esc_attr( $key ); ?>"><?php echo esc_html( $field[ 'label' ] ) . wp_kses_post( apply_filters( 'submit_resume_form_required_label', $field[ 'required' ] ? '' : ' <small>' . __( '(optional)', 'wp-job-manager-resumes' ) . '</small>', $field ) ); ?></label>
+				<div class="field <?php echo $field[ 'required' ] ? 'required-field' : ''; ?>">
+					<?php get_job_manager_template( 'form-fields/' . $field[ 'type' ] . '-field.php', array( 'key'   => $key, 'field' => $field ) ); ?>
 				</div>
 			</fieldset>
-		<?php endif; ?>
-		<?php do_action( 'resume_manager_register_form' ); ?>
-	<?php endif; ?>
+			<?php
+		}
+		do_action( 'resume_manager_register_form' );
+	}
+	?>
 
 <?php endif; ?>

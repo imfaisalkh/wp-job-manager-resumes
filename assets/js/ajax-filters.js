@@ -142,7 +142,7 @@ jQuery( document ).ready( function ( $ ) {
 
 		form.find(':input[name="search_keywords"]').not(':input[type="hidden"]').val('');
 		form.find(':input[name="search_location"]').not(':input[type="hidden"]').val('');
-		form.find(':input[name^="search_categories"]').not(':input[type="hidden"]').val( 0 ).trigger( 'chosen:updated' );
+		form.find(':input[name^="search_categories"]').not(':input[type="hidden"]').val( 0 ).trigger( 'chosen:updated' ).trigger( 'change.select2' );
 
 		target.triggerHandler( 'reset' );
 		target.triggerHandler( 'update_results', [ 1, false ] );
@@ -176,7 +176,16 @@ jQuery( document ).ready( function ( $ ) {
 		return false;
 	} );
 
-	if ( $.isFunction( $.fn.chosen ) ) {
-		$( 'select[name^="search_categories"]' ).chosen();
+	if ( $.isFunction( $.fn.select2 ) ) {
+		var select2_args = {
+			allowClear: true,
+			minimumResultsForSearch: 10
+		};
+		if ( 1 === parseInt( resume_manager_ajax_filters.is_rtl, 10 ) ) {
+			select2_args.dir = 'rtl';
+		}
+		$( 'select[name^="search_categories"]:visible' ).select2( select2_args );
+	} else if ( $.isFunction( $.fn.chosen ) ) {
+		$( 'select[name^="search_categories"]:visible' ).chosen();
 	}
 });

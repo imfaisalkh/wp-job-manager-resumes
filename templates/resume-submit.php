@@ -29,12 +29,6 @@ wp_enqueue_script( 'wp-resume-manager-resume-submission' );
 
 	<?php if ( resume_manager_user_can_post_resume() ) : ?>
 
-		<?php if ( get_option( 'resume_manager_linkedin_import' ) ) : ?>
-
-			<?php get_job_manager_template( 'linkedin-import.php', '', 'wp-job-manager-resumes', RESUME_MANAGER_PLUGIN_DIR . '/templates/' ); ?>
-
-		<?php endif; ?>
-
 		<!-- Resume Fields -->
 		<?php do_action( 'submit_resume_form_resume_fields_start' ); ?>
 

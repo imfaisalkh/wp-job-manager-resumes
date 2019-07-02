@@ -53,6 +53,9 @@ class WP_Resume_Manager_Post_Types {
 		add_action( 'resume_manager_check_for_expired_resumes', array( $this, 'check_for_expired_resumes' ) );
 
 		add_action( 'save_post', array( $this, 'flush_get_resume_listings_cache' ) );
+		add_action( 'delete_post', array( $this, 'flush_get_resume_listings_cache' ) );
+		add_action( 'trash_post', array( $this, 'flush_get_resume_listings_cache' ) );
+
 		add_action( 'resume_manager_my_resume_do_action', array( $this, 'resume_manager_my_resume_do_action' ) );
 	}
 

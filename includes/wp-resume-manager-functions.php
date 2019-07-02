@@ -116,7 +116,7 @@ function get_resumes( $args = array() ) {
 	if ( false === ( $result = get_transient( $query_args_hash ) ) ) {
 		$cached_query = false;
 		$result = new WP_Query( $query_args );
-		set_transient( $query_args_hash, $result, DAY_IN_SECONDS * 30 );
+		set_transient( $query_args_hash, $result, DAY_IN_SECONDS );
 	}
 	if ( $cached_query ) {
 		// random order is cached so shuffle them
@@ -356,6 +356,31 @@ function resume_manager_user_can_view_resume_name( $resume_id ) {
 }
 
 /**
+ * Checks to see if the standard password setup email should be used.
+ *
+ * @since 1.18.0
+ *
+ * @return bool True if they are to use standard email, false to allow user to set password at first job creation.
+ */
+function resume_manager_use_standard_password_setup_email() {
+	$use_standard_password_setup_email = true;
+
+	// If username is being automatically generated, force them to send password setup email.
+	if ( ! resume_manager_generate_username_from_email() ) {
+		$use_standard_password_setup_email = get_option( 'resume_manager_use_standard_password_setup_email' ) == 1 ? true : false;
+	}
+
+	/**
+	 * Allows an override of the setting for if a password should be auto-generated for new users.
+	 *
+	 * @since 1.18.0
+	 *
+	 * @param bool $use_standard_password_setup_email True if a standard account setup email should be sent.
+	 */
+	return apply_filters( 'resume_manager_use_standard_password_setup_email', $use_standard_password_setup_email );
+}
+
+/**
  * Check if the option to discourage resume search indexing is enabled.
  *
  * @since 1.16.1
@@ -524,4 +549,149 @@ function calculate_resume_expiry( $resume_id ) {
 	}
 
 	return '';
+}
+
+/**
+ * Checks if the visitor is currently on a WP Resume Manager page, resume, or taxonomy.
+ *
+ * @since 1.17.1
+ *
+ * @return bool
+ */
+function is_wp_resume_manager() {
+	/**
+	 * Filter the result of is_wp_resume_manager()
+	 *
+	 * @since 1.17.1
+	 *
+	 * @param bool $is_wp_resume_manager
+	 */
+	return apply_filters( 'is_wp_resume_manager', ( is_wp_resume_manager_page() || has_wp_resume_manager_shortcode() || is_wp_resume_manager_resume() || is_wp_resume_manager_taxonomy() ) );
+}
+
+/**
+ * Checks if the visitor is currently on a WP Resume Manager page.
+ *
+ * @since 1.17.1
+ *
+ * @return bool
+ */
+function is_wp_resume_manager_page() {
+	$is_wp_resume_manager_page = is_post_type_archive( 'resume' );
+
+	if ( ! $is_wp_resume_manager_page ) {
+		$wp_resume_manager_page_ids = array_filter(
+			array(
+				get_option( 'resume_manager_submit_resume_form_page_id', false ),
+				get_option( 'resume_manager_candidate_dashboard_page_id', false ),
+				get_option( 'resume_manager_resumes_page_id', false ),
+			)
+		);
+
+		/**
+		 * Filters a list of all page IDs related to WP Resume Manager.
+		 *
+		 * @since 1.17.1
+		 *
+		 * @param int[] $wp_resume_manager_page_ids
+		 */
+		$wp_resume_manager_page_ids = array_unique( apply_filters( 'resume_manager_page_ids', $wp_resume_manager_page_ids ) );
+
+		$is_wp_resume_manager_page = is_page( $wp_resume_manager_page_ids );
+	}
+
+	/**
+	 * Filter the result of is_wp_resume_manager_page()
+	 *
+	 * @since 1.17.1
+	 *
+	 * @param bool $is_wp_resume_manager_page
+	 */
+	return apply_filters( 'is_wp_resume_manager_page', $is_wp_resume_manager_page );
+}
+
+/**
+ * Checks if the provided content or the current single page or post has a WP Resume Manager shortcode.
+ *
+ * @param string|null       $content   Content to check. If not provided, it uses the current post content.
+ * @param string|array|null $tag Check specifically for one or more shortcodes. If not provided, checks for any WP Resume Manager shortcode.
+ *
+ * @return bool
+ */
+function has_wp_resume_manager_shortcode( $content = null, $tag = null ) {
+	global $post;
+
+	$has_wp_resume_manager_shortcode = false;
+
+	if ( null === $content && is_singular() && is_a( $post, 'WP_Post' ) ) {
+		$content = $post->post_content;
+	}
+
+	if ( ! empty( $content ) ) {
+		$wp_resume_manager_shortcodes = array( 'submit_resume_form', 'candidate_dashboard', 'resumes' );
+		/**
+		 * Filters a list of all shortcodes associated with WP Resume Manager.
+		 *
+		 * @since 1.17.1
+		 *
+		 * @param string[] $wp_resume_manager_shortcodes
+		 */
+		$wp_resume_manager_shortcodes = array_unique( apply_filters( 'resume_manager_shortcodes', $wp_resume_manager_shortcodes ) );
+
+		if ( null !== $tag ) {
+			if ( ! is_array( $tag ) ) {
+				$tag = array( $tag );
+			}
+			$wp_resume_manager_shortcodes = array_intersect( $wp_resume_manager_shortcodes, $tag );
+		}
+
+		foreach ( $wp_resume_manager_shortcodes as $shortcode ) {
+			if ( has_shortcode( $content, $shortcode ) ) {
+				$has_wp_resume_manager_shortcode = true;
+				break;
+			}
+		}
+	}
+
+	/**
+	 * Filter the result of has_wp_resume_manager_shortcode()
+	 *
+	 * @since 1.17.1
+	 *
+	 * @param bool $has_wp_resume_manager_shortcode
+	 */
+	return apply_filters( 'has_wp_resume_manager_shortcode', $has_wp_resume_manager_shortcode );
+}
+
+/**
+ * Checks if the current page is a job listing.
+ *
+ * @since 1.17.1
+ *
+ * @return bool
+ */
+function is_wp_resume_manager_resume() {
+	return is_singular( array( 'resume' ) );
+}
+
+/**
+ * Checks if the visitor is on a page for a WP Resume Manager taxonomy.
+ *
+ * @since 1.17.1
+ *
+ * @return bool
+ */
+function is_wp_resume_manager_taxonomy() {
+	return is_tax( get_object_taxonomies( 'resume' ) );
+}
+
+/**
+ * Whether to create attachments for files that are uploaded with a Resume.
+ *
+ * @since 1.17.1
+ *
+ * @return bool
+ */
+function resume_manager_attach_uploaded_files() {
+	return apply_filters( 'resume_manager_attach_uploaded_files', false );
 }

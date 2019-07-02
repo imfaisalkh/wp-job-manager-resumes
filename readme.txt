@@ -1,8 +1,8 @@
 === Resume Manager ===
-Contributors: mikejolley, kraftbj, tripflex, danjjohnson, aheckler, bryceadams, fitoussi, jakeom
-Requires at least: 4.1
-Tested up to: 4.9
-Stable tag: 1.17.0
+Contributors: mikejolley, kraftbj, tripflex, danjjohnson, aheckler, bryceadams, fitoussi, jakeom, alexsanford1
+Requires at least: 4.7
+Tested up to: 5.2
+Stable tag: 1.17.3
 License: GNU General Public License v3.0
 
 Manage candidate resumes from the WordPress admin panel, and allow candidates to post their resumes directly to your site.
@@ -28,6 +28,20 @@ If you need help with customisation you will need to find and hire a developer c
 To install this plugin, please refer to the guide here: [http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
 
 == Changelog ==
+
+= 1.17.3 =
+* Compatibility fix with WP Job Manager 1.33.0 that shows values of resume fields in WP admin's resume editor.
+
+= 1.17.2 = 
+* Feature - Add password fields for registration. 
+* Change - Remove LinkedIn Import functionality that is no longer supported by LinkedIn.
+* Fix - Lower time resume listing results are cached to 24 hours.
+* Fix - Clear resume listing cache on post deletion.
+
+= 1.17.1 = 
+* Change - Move to Select2 for enhanced select fields and support with WP Job Manager 1.32.0 asset management.
+* Change - Delete resume files when permanently deleting resumes from trash.
+* Fix - Escapes attachment URLs on resumes.
 
 = 1.17.0 =
 * Feature - Adds user data export using WordPress core's "Export Personal Data" tool.

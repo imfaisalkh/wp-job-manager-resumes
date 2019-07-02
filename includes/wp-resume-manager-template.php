@@ -239,6 +239,58 @@ function get_the_resume_status( $post = null ) {
 }
 
 /**
+ * Returns the registration fields used when an account is required.
+ *
+ * @since 1.18.0
+ *
+ * @return array $registration_fields.
+ */
+function resume_manager_get_registration_fields() {
+	$generate_username_from_email      = resume_manager_generate_username_from_email();
+	$use_standard_password_setup_email = resume_manager_use_standard_password_setup_email();
+	$account_required                  = resume_manager_user_requires_account();
+
+	$registration_fields = array();
+	if ( resume_manager_enable_registration() ) {
+		if ( ! $generate_username_from_email ) {
+			$registration_fields['create_account_username'] = array(
+				'type'     => 'text',
+				'label'    => esc_html__( 'Username', 'wp-job-manager-resumes' ),
+				'required' => $account_required,
+				'value'    => isset( $_POST['create_account_username'] ) ? $_POST['create_account_username'] : '',
+			);
+		}
+		if ( ! $use_standard_password_setup_email ) {
+			$registration_fields['create_account_password'] = array(
+				'type'         => 'password',
+				'label'        => esc_html__( 'Password', 'wp-job-manager-resumes' ),
+				'autocomplete' => false,
+				'required'     => $account_required,
+			);
+			$password_hint                                  = wpjm_get_password_rules_hint();
+			if ( $password_hint ) {
+				$registration_fields['create_account_password']['description'] = $password_hint;
+			}
+			$registration_fields['create_account_password_verify'] = array(
+				'type'         => 'password',
+				'label'        => esc_html__( 'Verify Password', 'wp-job-manager-resumes' ),
+				'autocomplete' => false,
+				'required'     => $account_required,
+			);
+		}
+	}
+
+	/**
+	 * Filters the fields used at registration.
+	 *
+	 * @since 1.18.0
+	 *
+	 * @param array $registration_fields
+	 */
+	return apply_filters( 'resume_manager_get_registration_fields', $registration_fields );
+}
+
+/**
  * True if an the user can post a resume. By default, you must be logged in.
  *
  * @return bool
